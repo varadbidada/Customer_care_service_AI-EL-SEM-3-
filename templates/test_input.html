@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-container { max-width: 600px; margin: 0 auto; }
+        .input-group { margin: 20px 0; }
+        input, textarea, button { padding: 10px; margin: 5px; }
+        .log { background: #f0f0f0; padding: 10px; margin: 10px 0; height: 200px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Input Test Page</h1>
+        
+        <div class="input-group">
+            <h3>Text Input Test</h3>
+            <input type="text" id="testInput" placeholder="Type here...">
+            <button id="testSend">Send</button>
+        </div>
+        
+        <div class="input-group">
+            <h3>Textarea Test</h3>
+            <textarea id="testTextarea" placeholder="Type here..." rows="3"></textarea>
+            <button id="testSendTextarea">Send Textarea</button>
+        </div>
+        
+        <div class="input-group">
+            <h3>Voice Test</h3>
+            <button id="testVoice">🎤 Test Voice</button>
+        </div>
+        
+        <div class="input-group">

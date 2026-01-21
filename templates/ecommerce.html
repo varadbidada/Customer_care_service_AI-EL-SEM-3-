@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop at RVCE - Your Campus Shopping Destination</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='ecommerce.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h1>Shop at RVCE</h1>
+          <span class="tagline">Your Campus Partner</span>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search for books, electronics, stationery and more..."
+              id="searchInput"
+            />
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+          <div class="action-item">
+            <i class="fas fa-user"></i>
+            <span>Account</span>
+          </div>
+          <div class="action-item">
+            <i class="fas fa-box"></i>
+            <span>Orders</span>
+          </div>
+          <div class="action-item cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Cart</span>
+            <span class="cart-count">3</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <div class="nav-container">
+        <div class="nav-item">
+          <i class="fas fa-bars"></i>
+          <span>All Categories</span>
+        </div>
+        <div class="nav-item">Electronics</div>
+        <div class="nav-item">Books & Stationery</div>
+        <div class="nav-item">Fashion</div>
+        <div class="nav-item">Sports & Fitness</div>
+        <div class="nav-item">Food & Snacks</div>
+        <div class="nav-item">Campus Essentials</div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Banner -->
+      <section class="hero-banner">
+        <div class="banner-slide active">
+          <div class="banner-content">
+            <h2>RVCE Campus Store</h2>
+            <p>Up to 50% off on Electronics, Books & Campus Essentials</p>
+            <button class="cta-button">Shop Now</button>
+          </div>
+          <div class="banner-image">
+            <div class="placeholder-image">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Campus Store</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories Section -->
+      <section class="categories-section">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Books & Stationery</h3>
+            <p>Textbooks, Notebooks, Pens</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>Fashion</h3>
+            <p>Clothing, Shoes, Accessories</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Food & Snacks</h3>
+            <p>Canteen Items, Beverages, Snacks</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Campus Essentials</h3>
+            <p>ID Cards, Lab Coats, Supplies</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <h3>Sports & Fitness</h3>
+            <p>Equipment, Apparel, Accessories</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+            <h3>Daily Needs</h3>
+            <p>Personal Care, Hygiene, Basics</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="products-section">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-headphones"></i>
+              </div>
+              <div class="product-badge">Best Seller</div>
+            </div>
+            <div class="product-info">
+              <h3>Wireless Headphones</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(2,847)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹2,999</span>
+                <span class="original-price">₹4,999</span>
+                <span class="discount">40% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="product-badge">New Launch</div>
+            </div>
+            <div class="product-info">
+              <h3>Smartphone 128GB</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(1,234)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹15,999</span>
+                <span class="original-price">₹19,999</span>
+                <span class="discount">20% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-laptop"></i>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Gaming Laptop</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(892)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹65,999</span>
+                <span class="original-price">₹79,999</span>
+                <span class="discount">17% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-tshirt"></i>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Cotton T-Shirt</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(567)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹599</span>
+                <span class="original-price">₹999</span>
+                <span class="discount">40% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-book"></i>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Best Selling Novel</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(1,456)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹299</span>
+                <span class="original-price">₹499</span>
+                <span class="discount">40% off</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <div class="placeholder-product">
+                <i class="fas fa-watch"></i>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Smart Watch</h3>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(723)</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">₹3,499</span>
+                <span class="original-price">₹5,999</span>
+                <span class="discount">42% off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Get to Know Us</h3>
+          <ul>
+            <li><a href="#">About Shop at RVCE</a></li>
+            <li><a href="#">Campus Store</a></li>
+            <li><a href="#">Student Services</a></li>
+            <li><a href="#">RVCE Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect with Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Campus Services</h3>
+          <ul>
+            <li><a href="#">Sell on Campus</a></li>
+            <li><a href="#">Student Discounts</a></li>
+            <li><a href="#">Bulk Orders</a></li>
+            <li><a href="#">Campus Delivery</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Student Support</h3>
+          <ul>
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Returns & Refunds</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Shop at RVCE. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Floating Chat Widget -->
+    <div class="chat-widget">
+      <!-- Chat Button -->
+      <div class="chat-button" id="chatButton">
+        <i class="fas fa-comments"></i>
+        <div class="chat-notification" id="chatNotification">1</div>
+      </div>
+
+      <!-- Chat Panel -->
+      <div class="chat-panel" id="chatPanel">
+        <!-- Drag Handle -->
+        <div class="chat-drag-handle" id="chatDragHandle"></div>
+
+        <!-- Resize Handles -->
+        <div class="resize-handle resize-n" data-direction="n"></div>
+        <div class="resize-handle resize-ne" data-direction="ne"></div>
+        <div class="resize-handle resize-e" data-direction="e"></div>
+        <div class="resize-handle resize-se" data-direction="se"></div>
+        <div class="resize-handle resize-s" data-direction="s"></div>
+        <div class="resize-handle resize-sw" data-direction="sw"></div>
+        <div class="resize-handle resize-w" data-direction="w"></div>
+        <div class="resize-handle resize-nw" data-direction="nw"></div>
+
+        <!-- Resize Indicator -->
+        <div class="resize-indicator"></div>
+
+        <!-- Chat Header -->
+        <div class="chat-header">
+          <div class="chat-agent-info">
+            <div class="agent-avatar">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="agent-details">
+              <h3>SupportX AI</h3>
+              <p class="agent-status">Online • Ready to help</p>
+            </div>
+          </div>
+          <div class="chat-controls">
+            <button
+              class="chat-control-btn"
+              id="chatTtsBtn"
+              title="Toggle Voice"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <button
+              class="chat-control-btn"
+              id="chatResetSizeBtn"
+              title="Reset Size"
+            >
+              <i class="fas fa-expand-arrows-alt"></i>
+            </button>
+            <button
+              class="chat-control-btn"
+              id="chatMinimizeBtn"
+              title="Minimize"
+            >
+              <i class="fas fa-minus"></i>
+            </button>
+            <button class="chat-control-btn" id="chatCloseBtn" title="Close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chatMessages">
+          <!-- Welcome Message -->
+          <div class="chat-message bot-message">
+            <div class="message-avatar">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="message-content">
+              <div class="message-bubble">
+                <p>
+                  Hello! I'm SupportX AI, your campus shopping assistant. I can
+                  help you with orders, returns, billing, and product questions.
+                  How can I assist you today?
+                </p>
+              </div>
+              <div class="message-time" id="welcomeTime"></div>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="quick-actions" id="quickActions">
+            <div class="quick-actions-header">
+              <span>Quick Help Options:</span>
+            </div>
+            <div class="quick-actions-grid">
+              <button class="quick-action-btn" data-message="Track my order">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Track Order</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="I want to return an item"
+              >
+                <i class="fas fa-undo"></i>
+                <span>Return Item</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="I have a billing issue"
+              >
+                <i class="fas fa-credit-card"></i>
+                <span>Billing Help</span>
+              </button>
+              <button class="quick-action-btn" data-message="Show me textbooks">
+                <i class="fas fa-book"></i>
+                <span>Find Books</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="Campus delivery options"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Delivery Info</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="Student discount available?"
+              >
+                <i class="fas fa-percentage"></i>
+                <span>Discounts</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typing Indicator -->
+        <div
+          class="typing-indicator"
+          id="typingIndicator"
+          style="display: none"
+        >
+          <div class="message-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="typing-content">
+            <div class="typing-bubble">
+              <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-container">
+          <div class="chat-input-wrapper">
+            <textarea
+              id="chatInput"
+              placeholder="Type your message here..."
+              rows="1"
+              maxlength="1000"
+            ></textarea>
+            <div class="chat-input-actions">
+              <button
+                class="chat-action-btn voice-btn"
+                id="chatVoiceBtn"
+                title="Voice Input"
+              >
+                <i class="fas fa-microphone"></i>
+              </button>
+              <button
+                class="chat-action-btn send-btn"
+                id="chatSendBtn"
+                title="Send Message"
+                disabled
+              >
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="chat-input-footer">
+            <div class="connection-status" id="connectionStatus">
+              <span class="status-indicator"></span>
+              <span class="status-label">Connected</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TTS Status -->
+    <div class="tts-status" id="ttsStatus" style="display: none">
+      <div class="tts-content">
+        <i class="fas fa-volume-up"></i>
+        <span>Speaking...</span>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='ecommerce.js') }}"></script>
+  </body>
+</html>

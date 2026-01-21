@@ -1,0 +1,2046 @@
+{
+  "session_id": "wrong_item_test",
+  "created_at": "2025-12-28T12:42:39.116038",
+  "last_updated": "2025-12-28T12:42:39.158509",
+  "conversation_history": [
+    {
+      "timestamp": "2025-12-28T12:42:39.131622",
+      "message": "I got wrong apples",
+      "sender": "user",
+      "intents": [
+        "support"
+      ],
+      "entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ]
+      },
+      "confidence_scores": {
+        "support": 1.0
+      },
+      "message_id": 0
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.133026",
+      "message": "I'm sorry you received apples instead of the correct item you ordered! To help resolve this quickly, could you please provide your order number? I'll then arrange for the correct item to be sent with expedited shipping and handle the return of the wrong item.",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 1
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.135682",
+      "message": "I ordered red apples but got green apples",
+      "sender": "user",
+      "intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "entities": {
+        "order_number": [
+          "ed"
+        ],
+        "product_name": [
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence_scores": {
+        "support": 0.6,
+        "order": 0.3,
+        "product": 0.3
+      },
+      "message_id": 2
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.136800",
+      "message": "I understand you have multiple concerns, and I want to help with all of them. First, regarding support: I see you ordered red apples but received green instead. I sincerely apologize for this mix-up with order #ed. Let me make this right for you. I can: 1) Process a full refund ($89.99), 2) Send the correct red apples with free expedited shipping, or 3) If you'd like to keep the green, I can send your red apples and give you a discount. Which option would you prefer? Also, for order: Here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know? Finally, for product: I'd be happy to help you purchase the apples! It's $299.99 with free shipping and a 2-year warranty. You can add it to your cart on our website, or I can guide you through the ordering process. Would you like me to check for any current promotions first?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 3
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.142873",
+      "message": "My order number is #12345",
+      "sender": "user",
+      "intents": [
+        "order"
+      ],
+      "entities": {
+        "order_number": [
+          "number",
+          "12345"
+        ]
+      },
+      "confidence_scores": {
+        "order": 1.0
+      },
+      "message_id": 4
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.144189",
+      "message": "here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 5
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.148194",
+      "message": "I want a refund",
+      "sender": "user",
+      "intents": [
+        "support"
+      ],
+      "entities": {
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "confidence_scores": {
+        "support": 1.0
+      },
+      "message_id": 6
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.148938",
+      "message": "I'd be happy to help you with a refund for order #ed. Let me check the order details... This order is eligible for a full refund of $89.99. The refund will be processed to your original payment method within 3-5 business days. What's the reason for the return?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 7
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.157493",
+      "message": "Actually, I ordered green apples but received red ones",
+      "sender": "user",
+      "intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "entities": {
+        "order_number": [
+          "ed"
+        ],
+        "product_name": [
+          "apples"
+        ],
+        "ordered_product": [
+          "green"
+        ],
+        "received_product": [
+          "red"
+        ]
+      },
+      "confidence_scores": {
+        "support": 0.6,
+        "order": 0.3,
+        "product": 0.3
+      },
+      "message_id": 8
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.158494",
+      "message": "I understand you have multiple concerns, and I want to help with all of them. First, regarding support: I see you ordered green apples but but received red instead. I sincerely apologize for this mix-up with order #ed. Let me make this right for you. I can: 1) Process a full refund ($89.99), 2) Send the correct green apples but with free expedited shipping, or 3) If you'd like to keep the red, I can send your green apples but and give you a discount. Which option would you prefer? Also, for order: Here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know? Finally, for product: I'd be happy to help you purchase the apples! It's $299.99 with free shipping and a 2-year warranty. You can add it to your cart on our website, or I can guide you through the ordering process. Would you like me to check for any current promotions first?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 9
+    }
+  ],
+  "current_intents": [
+    "support",
+    "order",
+    "product"
+  ],
+  "last_entities": {
+    "product_name": [
+      "apples"
+    ],
+    "received_product": [
+      "wrong",
+      "green",
+      "red"
+    ],
+    "delivery_issue": [
+      "wrong"
+    ],
+    "order_number": [
+      "ed",
+      "number",
+      "12345"
+    ],
+    "ordered_product": [
+      "red",
+      "green"
+    ],
+    "issue_type": [
+      "refund"
+    ]
+  },
+  "persistent_entities": {
+    "product_name": "apples",
+    "received_product": "red",
+    "ordered_product": "green",
+    "order_number": "number"
+  },
+  "active_agents": [
+    "support",
+    "order",
+    "product"
+  ],
+  "agent_contexts": {
+    "support": {
+      "session_id": "wrong_item_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "persistent_entities": {
+        "product_name": "apples",
+        "received_product": "red",
+        "ordered_product": "green",
+        "order_number": "number"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.142873",
+          "message": "My order number is #12345",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "number",
+              "12345"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 4
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.144189",
+          "message": "here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 5
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148194",
+          "message": "I want a refund",
+          "sender": "user",
+          "intents": [
+            "support"
+          ],
+          "entities": {
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "confidence_scores": {
+            "support": 1.0
+          },
+          "message_id": 6
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148938",
+          "message": "I'd be happy to help you with a refund for order #ed. Let me check the order details... This order is eligible for a full refund of $89.99. The refund will be processed to your original payment method within 3-5 business days. What's the reason for the return?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 7
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.157493",
+          "message": "Actually, I ordered green apples but received red ones",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "green"
+            ],
+            "received_product": [
+              "red"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 8
+        }
+      ],
+      "agent_context": {
+        "session_id": "wrong_item_test",
+        "current_intents": [
+          "support"
+        ],
+        "last_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "persistent_entities": {
+          "product_name": "apples",
+          "received_product": "red",
+          "ordered_product": "green",
+          "order_number": "number"
+        },
+        "conversation_history": [
+          {
+            "timestamp": "2025-12-28T12:42:39.135682",
+            "message": "I ordered red apples but got green apples",
+            "sender": "user",
+            "intents": [
+              "support",
+              "order",
+              "product"
+            ],
+            "entities": {
+              "order_number": [
+                "ed"
+              ],
+              "product_name": [
+                "apples"
+              ],
+              "ordered_product": [
+                "red"
+              ],
+              "received_product": [
+                "green"
+              ]
+            },
+            "confidence_scores": {
+              "support": 0.6,
+              "order": 0.3,
+              "product": 0.3
+            },
+            "message_id": 2
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.136800",
+            "message": "I understand you have multiple concerns, and I want to help with all of them. First, regarding support: I see you ordered red apples but received green instead. I sincerely apologize for this mix-up with order #ed. Let me make this right for you. I can: 1) Process a full refund ($89.99), 2) Send the correct red apples with free expedited shipping, or 3) If you'd like to keep the green, I can send your red apples and give you a discount. Which option would you prefer? Also, for order: Here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know? Finally, for product: I'd be happy to help you purchase the apples! It's $299.99 with free shipping and a 2-year warranty. You can add it to your cart on our website, or I can guide you through the ordering process. Would you like me to check for any current promotions first?",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 3
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.142873",
+            "message": "My order number is #12345",
+            "sender": "user",
+            "intents": [
+              "order"
+            ],
+            "entities": {
+              "order_number": [
+                "number",
+                "12345"
+              ]
+            },
+            "confidence_scores": {
+              "order": 1.0
+            },
+            "message_id": 4
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.144189",
+            "message": "here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 5
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.148194",
+            "message": "I want a refund",
+            "sender": "user",
+            "intents": [
+              "support"
+            ],
+            "entities": {
+              "issue_type": [
+                "refund"
+              ]
+            },
+            "confidence_scores": {
+              "support": 1.0
+            },
+            "message_id": 6
+          }
+        ],
+        "agent_context": {
+          "session_id": "wrong_item_test",
+          "current_intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "last_entities": {
+            "product_name": [
+              "apples"
+            ],
+            "received_product": [
+              "wrong",
+              "green",
+              "red"
+            ],
+            "delivery_issue": [
+              "wrong"
+            ],
+            "order_number": [
+              "ed",
+              "number",
+              "12345"
+            ],
+            "ordered_product": [
+              "red",
+              "green"
+            ],
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "persistent_entities": {
+            "product_name": "apples",
+            "received_product": "red",
+            "ordered_product": "green",
+            "order_number": "number"
+          },
+          "conversation_history": [
+            {
+              "timestamp": "2025-12-28T12:42:39.131622",
+              "message": "I got wrong apples",
+              "sender": "user",
+              "intents": [
+                "support"
+              ],
+              "entities": {
+                "product_name": [
+                  "apples"
+                ],
+                "received_product": [
+                  "wrong"
+                ],
+                "delivery_issue": [
+                  "wrong"
+                ]
+              },
+              "confidence_scores": {
+                "support": 1.0
+              },
+              "message_id": 0
+            },
+            {
+              "timestamp": "2025-12-28T12:42:39.133026",
+              "message": "I'm sorry you received apples instead of the correct item you ordered! To help resolve this quickly, could you please provide your order number? I'll then arrange for the correct item to be sent with expedited shipping and handle the return of the wrong item.",
+              "sender": "bot",
+              "intents": [],
+              "entities": {},
+              "confidence_scores": {},
+              "message_id": 1
+            },
+            {
+              "timestamp": "2025-12-28T12:42:39.135682",
+              "message": "I ordered red apples but got green apples",
+              "sender": "user",
+              "intents": [
+                "support",
+                "order",
+                "product"
+              ],
+              "entities": {
+                "order_number": [
+                  "ed"
+                ],
+                "product_name": [
+                  "apples"
+                ],
+                "ordered_product": [
+                  "red"
+                ],
+                "received_product": [
+                  "green"
+                ]
+              },
+              "confidence_scores": {
+                "support": 0.6,
+                "order": 0.3,
+                "product": 0.3
+              },
+              "message_id": 2
+            }
+          ],
+          "agent_context": {
+            "session_id": "wrong_item_test",
+            "current_intents": [
+              "support"
+            ],
+            "last_entities": {
+              "product_name": [
+                "apples"
+              ],
+              "received_product": [
+                "wrong",
+                "green",
+                "red"
+              ],
+              "delivery_issue": [
+                "wrong"
+              ],
+              "order_number": [
+                "ed",
+                "number",
+                "12345"
+              ],
+              "ordered_product": [
+                "red",
+                "green"
+              ],
+              "issue_type": [
+                "refund"
+              ]
+            },
+            "persistent_entities": {
+              "product_name": "apples",
+              "received_product": "red",
+              "ordered_product": "green",
+              "order_number": "number"
+            },
+            "conversation_history": [
+              {
+                "timestamp": "2025-12-28T12:42:39.131622",
+                "message": "I got wrong apples",
+                "sender": "user",
+                "intents": [
+                  "support"
+                ],
+                "entities": {
+                  "product_name": [
+                    "apples"
+                  ],
+                  "received_product": [
+                    "wrong"
+                  ],
+                  "delivery_issue": [
+                    "wrong"
+                  ]
+                },
+                "confidence_scores": {
+                  "support": 1.0
+                },
+                "message_id": 0
+              }
+            ],
+            "agent_context": {},
+            "user_preferences": {},
+            "user_name": null,
+            "communication_style": "friendly",
+            "user_tone": "neutral",
+            "empathy_level": "standard",
+            "user_satisfaction": "neutral",
+            "pending_actions": {},
+            "active_workflows": {},
+            "last_topic": null,
+            "unresolved_issues": [
+              {
+                "type": "product_substitution",
+                "description": "Received wrong instead of ordered red",
+                "priority": "high",
+                "created_at": "2025-12-28T12:42:39.135718",
+                "status": "open"
+              }
+            ],
+            "has_product_substitution": false,
+            "substitution_details": null,
+            "conversation_summary": "product name: apples; received product: wrong; Current topics: support",
+            "entity_confidence": {
+              "product_name": 0.7,
+              "received_product": 0.7
+            },
+            "follow_up_context": {
+              "expecting_order_number": false,
+              "expecting_product_correction": false,
+              "expecting_confirmation": false,
+              "last_question_type": null
+            },
+            "recent_agent_usage": {},
+            "current_message": "I got wrong apples",
+            "detected_intent": "support",
+            "detected_entities": {
+              "product_name": [
+                "apples"
+              ],
+              "received_product": [
+                "wrong",
+                "green",
+                "red"
+              ],
+              "delivery_issue": [
+                "wrong"
+              ],
+              "order_number": [
+                "ed",
+                "number",
+                "12345"
+              ],
+              "ordered_product": [
+                "red",
+                "green"
+              ],
+              "issue_type": [
+                "refund"
+              ]
+            },
+            "confidence": 1.0,
+            "is_multi_intent": false,
+            "personalization": {
+              "user_name": null,
+              "communication_style": "friendly",
+              "user_tone": "neutral",
+              "empathy_level": "standard",
+              "user_satisfaction": "neutral",
+              "conversation_length": 1,
+              "has_unresolved_issues": false
+            },
+            "issue_context": {
+              "wrong_item": {
+                "ordered": "correct item",
+                "received": "apples",
+                "type": "wrong_item_delivery",
+                "confidence": "high",
+                "pattern_matched": "got\\s+wrong\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+                "detection_method": "pattern_matching"
+              },
+              "delivery_problem": {
+                "type": "wrong",
+                "severity": "medium"
+              }
+            }
+          },
+          "user_preferences": {},
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "high",
+          "user_satisfaction": "neutral",
+          "pending_actions": {},
+          "active_workflows": {},
+          "last_topic": null,
+          "unresolved_issues": [
+            {
+              "type": "product_substitution",
+              "description": "Received wrong instead of ordered red",
+              "priority": "high",
+              "created_at": "2025-12-28T12:42:39.135718",
+              "status": "open"
+            }
+          ],
+          "has_product_substitution": true,
+          "substitution_details": {
+            "ordered": "red",
+            "received": "green",
+            "status": "unresolved"
+          },
+          "conversation_summary": "product name: apples; received product: green; ordered product: red; Current topics: support, order, product; Open issues: 1",
+          "entity_confidence": {
+            "product_name": 0.7,
+            "received_product": 0.8,
+            "ordered_product": 0.7
+          },
+          "follow_up_context": {
+            "expecting_order_number": true,
+            "expecting_product_correction": false,
+            "expecting_confirmation": false,
+            "last_question_type": "order_number"
+          },
+          "recent_agent_usage": {
+            "support": 1
+          },
+          "current_message": "I ordered red apples but got green apples",
+          "detected_intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "detected_entities": {
+            "product_name": [
+              "apples"
+            ],
+            "received_product": [
+              "wrong",
+              "green",
+              "red"
+            ],
+            "delivery_issue": [
+              "wrong"
+            ],
+            "order_number": [
+              "ed",
+              "number",
+              "12345"
+            ],
+            "ordered_product": [
+              "red",
+              "green"
+            ],
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "confidence": 0.6,
+          "is_multi_intent": true,
+          "other_intents": [
+            "order",
+            "product"
+          ],
+          "personalization": {
+            "user_name": null,
+            "communication_style": "friendly",
+            "user_tone": "neutral",
+            "empathy_level": "high",
+            "user_satisfaction": "neutral",
+            "conversation_length": 3,
+            "has_unresolved_issues": true
+          },
+          "issue_context": {
+            "wrong_item": {
+              "ordered": "red apples",
+              "received": "green",
+              "type": "wrong_item_delivery",
+              "confidence": "high",
+              "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+              "detection_method": "pattern_matching"
+            }
+          }
+        },
+        "user_preferences": {},
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "pending_actions": {},
+        "active_workflows": {},
+        "last_topic": null,
+        "unresolved_issues": [
+          {
+            "type": "product_substitution",
+            "description": "Received wrong instead of ordered red",
+            "priority": "high",
+            "created_at": "2025-12-28T12:42:39.135718",
+            "status": "open"
+          }
+        ],
+        "has_product_substitution": true,
+        "substitution_details": {
+          "ordered": "red",
+          "received": "green",
+          "status": "unresolved"
+        },
+        "conversation_summary": "product name: apples; received product: green; ordered product: red; order number: number; Current topics: support; Open issues: 1",
+        "entity_confidence": {
+          "product_name": 0.7,
+          "received_product": 0.8,
+          "ordered_product": 0.7,
+          "order_number": 0.95
+        },
+        "follow_up_context": {
+          "expecting_order_number": false,
+          "expecting_product_correction": false,
+          "expecting_confirmation": true,
+          "last_question_type": "confirmation"
+        },
+        "recent_agent_usage": {
+          "support": 2
+        },
+        "current_message": "I want a refund",
+        "detected_intent": "support",
+        "detected_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "confidence": 1.0,
+        "is_multi_intent": false,
+        "personalization": {
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "high",
+          "user_satisfaction": "neutral",
+          "conversation_length": 7,
+          "has_unresolved_issues": true
+        },
+        "issue_context": {
+          "refund_request": {
+            "type": "refund",
+            "urgency": "normal",
+            "reason": "general"
+          }
+        }
+      },
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received wrong instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.135718",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "green",
+        "received": "red",
+        "status": "unresolved"
+      },
+      "conversation_summary": "product name: apples; received product: red; ordered product: green; order number: number; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "product_name": 0.7,
+        "received_product": 0.9,
+        "ordered_product": 0.8,
+        "order_number": 0.95
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": false,
+        "last_question_type": null
+      },
+      "recent_agent_usage": {
+        "support": 3
+      },
+      "current_message": "Actually, I ordered green apples but received red ones",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "confidence": 0.6,
+      "is_multi_intent": true,
+      "other_intents": [
+        "order",
+        "product"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 9,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "green apples but",
+          "received": "red",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+received\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    },
+    "order": {
+      "session_id": "wrong_item_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "persistent_entities": {
+        "product_name": "apples",
+        "received_product": "red",
+        "ordered_product": "green",
+        "order_number": "number"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.142873",
+          "message": "My order number is #12345",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "number",
+              "12345"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 4
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.144189",
+          "message": "here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 5
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148194",
+          "message": "I want a refund",
+          "sender": "user",
+          "intents": [
+            "support"
+          ],
+          "entities": {
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "confidence_scores": {
+            "support": 1.0
+          },
+          "message_id": 6
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148938",
+          "message": "I'd be happy to help you with a refund for order #ed. Let me check the order details... This order is eligible for a full refund of $89.99. The refund will be processed to your original payment method within 3-5 business days. What's the reason for the return?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 7
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.157493",
+          "message": "Actually, I ordered green apples but received red ones",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "green"
+            ],
+            "received_product": [
+              "red"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 8
+        }
+      ],
+      "agent_context": {
+        "session_id": "wrong_item_test",
+        "current_intents": [
+          "order"
+        ],
+        "last_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "persistent_entities": {
+          "product_name": "apples",
+          "received_product": "red",
+          "ordered_product": "green",
+          "order_number": "number"
+        },
+        "conversation_history": [
+          {
+            "timestamp": "2025-12-28T12:42:39.131622",
+            "message": "I got wrong apples",
+            "sender": "user",
+            "intents": [
+              "support"
+            ],
+            "entities": {
+              "product_name": [
+                "apples"
+              ],
+              "received_product": [
+                "wrong"
+              ],
+              "delivery_issue": [
+                "wrong"
+              ]
+            },
+            "confidence_scores": {
+              "support": 1.0
+            },
+            "message_id": 0
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.133026",
+            "message": "I'm sorry you received apples instead of the correct item you ordered! To help resolve this quickly, could you please provide your order number? I'll then arrange for the correct item to be sent with expedited shipping and handle the return of the wrong item.",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 1
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.135682",
+            "message": "I ordered red apples but got green apples",
+            "sender": "user",
+            "intents": [
+              "support",
+              "order",
+              "product"
+            ],
+            "entities": {
+              "order_number": [
+                "ed"
+              ],
+              "product_name": [
+                "apples"
+              ],
+              "ordered_product": [
+                "red"
+              ],
+              "received_product": [
+                "green"
+              ]
+            },
+            "confidence_scores": {
+              "support": 0.6,
+              "order": 0.3,
+              "product": 0.3
+            },
+            "message_id": 2
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.136800",
+            "message": "I understand you have multiple concerns, and I want to help with all of them. First, regarding support: I see you ordered red apples but received green instead. I sincerely apologize for this mix-up with order #ed. Let me make this right for you. I can: 1) Process a full refund ($89.99), 2) Send the correct red apples with free expedited shipping, or 3) If you'd like to keep the green, I can send your red apples and give you a discount. Which option would you prefer? Also, for order: Here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know? Finally, for product: I'd be happy to help you purchase the apples! It's $299.99 with free shipping and a 2-year warranty. You can add it to your cart on our website, or I can guide you through the ordering process. Would you like me to check for any current promotions first?",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 3
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.142873",
+            "message": "My order number is #12345",
+            "sender": "user",
+            "intents": [
+              "order"
+            ],
+            "entities": {
+              "order_number": [
+                "number",
+                "12345"
+              ]
+            },
+            "confidence_scores": {
+              "order": 1.0
+            },
+            "message_id": 4
+          }
+        ],
+        "agent_context": {
+          "session_id": "wrong_item_test",
+          "current_intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "last_entities": {
+            "product_name": [
+              "apples"
+            ],
+            "received_product": [
+              "wrong",
+              "green",
+              "red"
+            ],
+            "delivery_issue": [
+              "wrong"
+            ],
+            "order_number": [
+              "ed",
+              "number",
+              "12345"
+            ],
+            "ordered_product": [
+              "red",
+              "green"
+            ],
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "persistent_entities": {
+            "product_name": "apples",
+            "received_product": "red",
+            "ordered_product": "green",
+            "order_number": "number"
+          },
+          "conversation_history": [
+            {
+              "timestamp": "2025-12-28T12:42:39.131622",
+              "message": "I got wrong apples",
+              "sender": "user",
+              "intents": [
+                "support"
+              ],
+              "entities": {
+                "product_name": [
+                  "apples"
+                ],
+                "received_product": [
+                  "wrong"
+                ],
+                "delivery_issue": [
+                  "wrong"
+                ]
+              },
+              "confidence_scores": {
+                "support": 1.0
+              },
+              "message_id": 0
+            },
+            {
+              "timestamp": "2025-12-28T12:42:39.133026",
+              "message": "I'm sorry you received apples instead of the correct item you ordered! To help resolve this quickly, could you please provide your order number? I'll then arrange for the correct item to be sent with expedited shipping and handle the return of the wrong item.",
+              "sender": "bot",
+              "intents": [],
+              "entities": {},
+              "confidence_scores": {},
+              "message_id": 1
+            },
+            {
+              "timestamp": "2025-12-28T12:42:39.135682",
+              "message": "I ordered red apples but got green apples",
+              "sender": "user",
+              "intents": [
+                "support",
+                "order",
+                "product"
+              ],
+              "entities": {
+                "order_number": [
+                  "ed"
+                ],
+                "product_name": [
+                  "apples"
+                ],
+                "ordered_product": [
+                  "red"
+                ],
+                "received_product": [
+                  "green"
+                ]
+              },
+              "confidence_scores": {
+                "support": 0.6,
+                "order": 0.3,
+                "product": 0.3
+              },
+              "message_id": 2
+            }
+          ],
+          "agent_context": {},
+          "user_preferences": {},
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "high",
+          "user_satisfaction": "neutral",
+          "pending_actions": {},
+          "active_workflows": {},
+          "last_topic": null,
+          "unresolved_issues": [
+            {
+              "type": "product_substitution",
+              "description": "Received wrong instead of ordered red",
+              "priority": "high",
+              "created_at": "2025-12-28T12:42:39.135718",
+              "status": "open"
+            }
+          ],
+          "has_product_substitution": true,
+          "substitution_details": {
+            "ordered": "red",
+            "received": "green",
+            "status": "unresolved"
+          },
+          "conversation_summary": "product name: apples; received product: green; ordered product: red; Current topics: support, order, product; Open issues: 1",
+          "entity_confidence": {
+            "product_name": 0.7,
+            "received_product": 0.8,
+            "ordered_product": 0.7
+          },
+          "follow_up_context": {
+            "expecting_order_number": true,
+            "expecting_product_correction": false,
+            "expecting_confirmation": false,
+            "last_question_type": "order_number"
+          },
+          "recent_agent_usage": {
+            "support": 1
+          },
+          "current_message": "I ordered red apples but got green apples",
+          "detected_intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "detected_entities": {
+            "product_name": [
+              "apples"
+            ],
+            "received_product": [
+              "wrong",
+              "green",
+              "red"
+            ],
+            "delivery_issue": [
+              "wrong"
+            ],
+            "order_number": [
+              "ed",
+              "number",
+              "12345"
+            ],
+            "ordered_product": [
+              "red",
+              "green"
+            ],
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "confidence": 0.3,
+          "is_multi_intent": true,
+          "other_intents": [
+            "support",
+            "product"
+          ],
+          "personalization": {
+            "user_name": null,
+            "communication_style": "friendly",
+            "user_tone": "neutral",
+            "empathy_level": "high",
+            "user_satisfaction": "neutral",
+            "conversation_length": 3,
+            "has_unresolved_issues": true
+          },
+          "issue_context": {
+            "wrong_item": {
+              "ordered": "red apples",
+              "received": "green",
+              "type": "wrong_item_delivery",
+              "confidence": "high",
+              "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+              "detection_method": "pattern_matching"
+            }
+          }
+        },
+        "user_preferences": {},
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "pending_actions": {},
+        "active_workflows": {},
+        "last_topic": null,
+        "unresolved_issues": [
+          {
+            "type": "product_substitution",
+            "description": "Received wrong instead of ordered red",
+            "priority": "high",
+            "created_at": "2025-12-28T12:42:39.135718",
+            "status": "open"
+          }
+        ],
+        "has_product_substitution": true,
+        "substitution_details": {
+          "ordered": "red",
+          "received": "green",
+          "status": "unresolved"
+        },
+        "conversation_summary": "product name: apples; received product: green; ordered product: red; order number: number; Current topics: order; Open issues: 1",
+        "entity_confidence": {
+          "product_name": 0.7,
+          "received_product": 0.8,
+          "ordered_product": 0.7,
+          "order_number": 0.95
+        },
+        "follow_up_context": {
+          "expecting_order_number": false,
+          "expecting_product_correction": false,
+          "expecting_confirmation": true,
+          "last_question_type": "confirmation"
+        },
+        "recent_agent_usage": {
+          "support": 2
+        },
+        "current_message": "My order number is #12345",
+        "detected_intent": "order",
+        "detected_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "confidence": 1.0,
+        "is_multi_intent": false,
+        "personalization": {
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "high",
+          "user_satisfaction": "neutral",
+          "conversation_length": 5,
+          "has_unresolved_issues": true
+        },
+        "issue_context": {}
+      },
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received wrong instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.135718",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "green",
+        "received": "red",
+        "status": "unresolved"
+      },
+      "conversation_summary": "product name: apples; received product: red; ordered product: green; order number: number; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "product_name": 0.7,
+        "received_product": 0.9,
+        "ordered_product": 0.8,
+        "order_number": 0.95
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": false,
+        "last_question_type": null
+      },
+      "recent_agent_usage": {
+        "support": 3
+      },
+      "current_message": "Actually, I ordered green apples but received red ones",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "confidence": 0.3,
+      "is_multi_intent": true,
+      "other_intents": [
+        "support",
+        "product"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 9,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "green apples but",
+          "received": "red",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+received\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    },
+    "product": {
+      "session_id": "wrong_item_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "persistent_entities": {
+        "product_name": "apples",
+        "received_product": "red",
+        "ordered_product": "green",
+        "order_number": "number"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.142873",
+          "message": "My order number is #12345",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "number",
+              "12345"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 4
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.144189",
+          "message": "here's your order #ed summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 5
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148194",
+          "message": "I want a refund",
+          "sender": "user",
+          "intents": [
+            "support"
+          ],
+          "entities": {
+            "issue_type": [
+              "refund"
+            ]
+          },
+          "confidence_scores": {
+            "support": 1.0
+          },
+          "message_id": 6
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.148938",
+          "message": "I'd be happy to help you with a refund for order #ed. Let me check the order details... This order is eligible for a full refund of $89.99. The refund will be processed to your original payment method within 3-5 business days. What's the reason for the return?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 7
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.157493",
+          "message": "Actually, I ordered green apples but received red ones",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "green"
+            ],
+            "received_product": [
+              "red"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 8
+        }
+      ],
+      "agent_context": {
+        "session_id": "wrong_item_test",
+        "current_intents": [
+          "support",
+          "order",
+          "product"
+        ],
+        "last_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "persistent_entities": {
+          "product_name": "apples",
+          "received_product": "red",
+          "ordered_product": "green",
+          "order_number": "number"
+        },
+        "conversation_history": [
+          {
+            "timestamp": "2025-12-28T12:42:39.131622",
+            "message": "I got wrong apples",
+            "sender": "user",
+            "intents": [
+              "support"
+            ],
+            "entities": {
+              "product_name": [
+                "apples"
+              ],
+              "received_product": [
+                "wrong"
+              ],
+              "delivery_issue": [
+                "wrong"
+              ]
+            },
+            "confidence_scores": {
+              "support": 1.0
+            },
+            "message_id": 0
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.133026",
+            "message": "I'm sorry you received apples instead of the correct item you ordered! To help resolve this quickly, could you please provide your order number? I'll then arrange for the correct item to be sent with expedited shipping and handle the return of the wrong item.",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 1
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.135682",
+            "message": "I ordered red apples but got green apples",
+            "sender": "user",
+            "intents": [
+              "support",
+              "order",
+              "product"
+            ],
+            "entities": {
+              "order_number": [
+                "ed"
+              ],
+              "product_name": [
+                "apples"
+              ],
+              "ordered_product": [
+                "red"
+              ],
+              "received_product": [
+                "green"
+              ]
+            },
+            "confidence_scores": {
+              "support": 0.6,
+              "order": 0.3,
+              "product": 0.3
+            },
+            "message_id": 2
+          }
+        ],
+        "agent_context": {},
+        "user_preferences": {},
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "pending_actions": {},
+        "active_workflows": {},
+        "last_topic": null,
+        "unresolved_issues": [
+          {
+            "type": "product_substitution",
+            "description": "Received wrong instead of ordered red",
+            "priority": "high",
+            "created_at": "2025-12-28T12:42:39.135718",
+            "status": "open"
+          }
+        ],
+        "has_product_substitution": true,
+        "substitution_details": {
+          "ordered": "red",
+          "received": "green",
+          "status": "unresolved"
+        },
+        "conversation_summary": "product name: apples; received product: green; ordered product: red; Current topics: support, order, product; Open issues: 1",
+        "entity_confidence": {
+          "product_name": 0.7,
+          "received_product": 0.8,
+          "ordered_product": 0.7
+        },
+        "follow_up_context": {
+          "expecting_order_number": true,
+          "expecting_product_correction": false,
+          "expecting_confirmation": false,
+          "last_question_type": "order_number"
+        },
+        "recent_agent_usage": {
+          "support": 1
+        },
+        "current_message": "I ordered red apples but got green apples",
+        "detected_intents": [
+          "support",
+          "order",
+          "product"
+        ],
+        "detected_entities": {
+          "product_name": [
+            "apples"
+          ],
+          "received_product": [
+            "wrong",
+            "green",
+            "red"
+          ],
+          "delivery_issue": [
+            "wrong"
+          ],
+          "order_number": [
+            "ed",
+            "number",
+            "12345"
+          ],
+          "ordered_product": [
+            "red",
+            "green"
+          ],
+          "issue_type": [
+            "refund"
+          ]
+        },
+        "confidence": 0.3,
+        "is_multi_intent": true,
+        "other_intents": [
+          "support",
+          "order"
+        ],
+        "personalization": {
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "high",
+          "user_satisfaction": "neutral",
+          "conversation_length": 3,
+          "has_unresolved_issues": true
+        },
+        "issue_context": {
+          "wrong_item": {
+            "ordered": "red apples",
+            "received": "green",
+            "type": "wrong_item_delivery",
+            "confidence": "high",
+            "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+            "detection_method": "pattern_matching"
+          }
+        }
+      },
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received wrong instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.135718",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "green",
+        "received": "red",
+        "status": "unresolved"
+      },
+      "conversation_summary": "product name: apples; received product: red; ordered product: green; order number: number; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "product_name": 0.7,
+        "received_product": 0.9,
+        "ordered_product": 0.8,
+        "order_number": 0.95
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": false,
+        "last_question_type": null
+      },
+      "recent_agent_usage": {
+        "support": 3
+      },
+      "current_message": "Actually, I ordered green apples but received red ones",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "product_name": [
+          "apples"
+        ],
+        "received_product": [
+          "wrong",
+          "green",
+          "red"
+        ],
+        "delivery_issue": [
+          "wrong"
+        ],
+        "order_number": [
+          "ed",
+          "number",
+          "12345"
+        ],
+        "ordered_product": [
+          "red",
+          "green"
+        ],
+        "issue_type": [
+          "refund"
+        ]
+      },
+      "confidence": 0.3,
+      "is_multi_intent": true,
+      "other_intents": [
+        "support",
+        "order"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 9,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "green apples but",
+          "received": "red",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+received\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    }
+  },
+  "user_preferences": {},
+  "user_name": null,
+  "communication_style": "friendly",
+  "user_tone": "neutral",
+  "empathy_level": "high",
+  "pending_actions": {},
+  "unresolved_issues": [
+    {
+      "type": "product_substitution",
+      "description": "Received wrong instead of ordered red",
+      "priority": "high",
+      "created_at": "2025-12-28T12:42:39.135718",
+      "status": "open"
+    }
+  ],
+  "expires_at": "2025-12-29T12:42:39.158515"
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HARD DEBUG MODE - Socket.IO Test</title>
+    <style>
+      body {
+        font-family: monospace;
+        padding: 20px;
+        background: #000;
+        color: #0f0;
+      }
+      .status {
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #0f0;
+      }
+      .connected {
+        color: #0f0;
+      }
+      .disconnected {
+        color: #f00;
+      }
+      .error {
+        color: #f00;
+      }
+      button {
+        padding: 10px 20px;
+        margin: 10px;
+        background: #333;
+        color: #0f0;
+        border: 1px solid #0f0;
+      }
+      button:hover {
+        background: #0f0;
+        color: #000;
+      }
+      #events {
+        border: 1px solid #0f0;
+        padding: 10px;
+        height: 300px;
+        overflow-y: auto;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HARD DEBUG MODE - Socket.IO Communication Test</h1>
+
+    <div id="connectionStatus" class="status">
+      Socket Status: Initializing...
+    </div>
+
+    <div>
+      <strong>Last Emitted Event:</strong> <span id="lastEmitted">None</span
+      ><br />
+      <strong>Last Received Event:</strong> <span id="lastReceived">None</span>
+    </div>
+
+    <button id="testButton">Send Test Message</button>
+
+    <h3>Event Log:</h3>
+    <div id="events"></div>
+
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script>
+      console.log("[DEBUG] JS loaded");
+
+      const statusDiv = document.getElementById("connectionStatus");
+      const lastEmittedSpan = document.getElementById("lastEmitted");
+      const lastReceivedSpan = document.getElementById("lastReceived");
+      const eventsDiv = document.getElementById("events");
+      const testButton = document.getElementById("testButton");
+
+      function logEvent(message) {
+        console.log(message);
+        eventsDiv.innerHTML +=
+          "<div>" + new Date().toLocaleTimeString() + ": " + message + "</div>";
+        eventsDiv.scrollTop = eventsDiv.scrollHeight;
+      }
+
+      function updateStatus(message, className) {
+        statusDiv.textContent = "Socket Status: " + message;
+        statusDiv.className = "status " + className;
+      }
+
+      // Initialize Socket.IO
+      console.log("[DEBUG] Socket initializing");
+      logEvent("Socket initializing...");
+
+      const socket = io();
+
+      // Socket lifecycle events
+      socket.on("connect", () => {
+        console.log("[DEBUG] Socket connected");
+        logEvent("✅ Socket CONNECTED - ID: " + socket.id);
+        updateStatus("Connected", "connected");
+        lastReceivedSpan.textContent = "connect event";
+      });
+
+      socket.on("disconnect", () => {
+        console.log("[DEBUG] Socket disconnected");
+        logEvent("❌ Socket DISCONNECTED");
+        updateStatus("Disconnected", "disconnected");
+        lastReceivedSpan.textContent = "disconnect event";
+      });
+
+      socket.on("connect_error", (error) => {
+        console.log("[DEBUG] Socket error:", error);
+        logEvent("❌ Socket ERROR: " + error);
+        updateStatus("Error: " + error, "error");
+        lastReceivedSpan.textContent = "connect_error event";
+      });
+
+      // Bot message handler
+      socket.on("bot_message", (data) => {
+        console.log("[DEBUG] Received bot_message:", data);
+        logEvent("📨 RECEIVED bot_message: " + JSON.stringify(data));
+        lastReceivedSpan.textContent = "bot_message: " + data.message;
+      });
+
+      // Test button click handler
+      testButton.addEventListener("click", () => {
+        console.log("SEND CLICKED");
+        logEvent("🔘 SEND CLICKED - Emitting user_message");
+
+        const testData = "PING";
+        socket.emit("user_message", testData);
+
+        lastEmittedSpan.textContent = "user_message: " + testData;
+        logEvent("📤 EMITTED user_message: " + testData);
+      });
+
+      logEvent("Debug page loaded and ready");
+    </script>
+  </body>
+</html>

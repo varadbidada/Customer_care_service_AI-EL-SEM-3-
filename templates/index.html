@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiro AI Assistant</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Header -->
+      <header class="chat-header">
+        <div class="header-left">
+          <div class="avatar">
+            <div class="avatar-icon">🤖</div>
+            <div class="status-dot" id="statusDot"></div>
+          </div>
+          <div class="agent-info">
+            <h1>Kiro AI Assistant</h1>
+            <p class="status-text" id="statusText">Online</p>
+          </div>
+        </div>
+        <div class="header-right">
+          <button class="header-btn" id="ttsBtn" title="Toggle Text-to-Speech">
+            <span>🔊</span>
+          </button>
+          <button class="header-btn" id="clearBtn" title="Clear Chat">
+            <span>🗑️</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Chat Messages Area -->
+      <main class="chat-main">
+        <div class="messages-container" id="messagesContainer">
+          <!-- Welcome Message -->
+          <div class="message bot-message">
+            <div class="message-avatar">
+              <span>🤖</span>
+            </div>
+            <div class="message-content">
+              <div class="message-bubble">
+                <p>
+                  Hello! I'm Kiro, your AI assistant. I can help you with
+                  orders, products, support issues, and general questions. How
+                  can I assist you today?
+                </p>
+              </div>
+              <div class="message-time" id="welcomeTime"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typing Indicator -->
+        <div
+          class="typing-indicator"
+          id="typingIndicator"
+          style="display: none"
+        >
+          <div class="message-avatar">
+            <span>🤖</span>
+          </div>
+          <div class="typing-content">
+            <div class="typing-bubble">
+              <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Input Area -->
+      <footer class="chat-footer">
+        <div class="input-container">
+          <div class="input-wrapper">
+            <textarea
+              id="messageInput"
+              placeholder="Type your message here..."
+              rows="1"
+              maxlength="1000"
+            ></textarea>
+            <div class="input-actions">
+              <button
+                class="action-btn voice-btn"
+                id="voiceBtn"
+                title="Voice Input"
+              >
+                <span id="voiceIcon">🎤</span>
+              </button>
+              <button
+                class="action-btn send-btn"
+                id="sendBtn"
+                title="Send Message"
+                disabled
+              >
+                <span>➤</span>
+              </button>
+            </div>
+          </div>
+          <div class="input-footer">
+            <div class="connection-status" id="connectionStatus">
+              <span class="status-indicator"></span>
+              <span class="status-label">Connected</span>
+            </div>
+            <div class="input-hint">
+              Press Enter to send • Shift+Enter for new line
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- TTS Status -->
+    <div class="tts-status" id="ttsStatus" style="display: none">
+      <div class="tts-content">
+        <span class="tts-icon">🔊</span>
+        <span class="tts-text">Speaking...</span>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
+  </body>
+</html>

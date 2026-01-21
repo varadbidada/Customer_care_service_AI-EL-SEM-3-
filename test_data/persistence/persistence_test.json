@@ -1,0 +1,998 @@
+{
+  "session_id": "persistence_test",
+  "created_at": "2025-12-28T12:42:39.188619",
+  "last_updated": "2025-12-28T12:42:39.202752",
+  "conversation_history": [
+    {
+      "timestamp": "2025-12-28T12:42:39.190309",
+      "message": "Hi, I'm Alice",
+      "sender": "user",
+      "intents": [
+        "general"
+      ],
+      "entities": {},
+      "confidence_scores": {
+        "general": 1.0
+      },
+      "message_id": 0
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.190915",
+      "message": "Hello! I'm Kiro, your AI assistant. I can help you with orders, products, support issues, and general questions. What would you like to know about today?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 1
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.192175",
+      "message": "I have order #PERSIST123",
+      "sender": "user",
+      "intents": [
+        "order"
+      ],
+      "entities": {
+        "order_number": [
+          "123",
+          "PERSIST123"
+        ],
+        "product_name": [
+          "persist123"
+        ]
+      },
+      "confidence_scores": {
+        "order": 1.0
+      },
+      "message_id": 2
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.193019",
+      "message": "here's your order #123 summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 3
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.195717",
+      "message": "I ordered red apples but got green apples",
+      "sender": "user",
+      "intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "entities": {
+        "order_number": [
+          "ed"
+        ],
+        "product_name": [
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence_scores": {
+        "support": 0.6,
+        "order": 0.3,
+        "product": 0.3
+      },
+      "message_id": 4
+    },
+    {
+      "timestamp": "2025-12-28T12:42:39.196866",
+      "message": "I understand you have multiple concerns, and I want to help with all of them. First, regarding support: I see you ordered red apples but received green instead. I sincerely apologize for this mix-up with order #123. Let me make this right for you. I can: 1) Process a full refund ($89.99), 2) Send the correct red apples with free expedited shipping, or 3) If you'd like to keep the green, I can send your red apples and give you a discount. Which option would you prefer? Also, for order: Here's your order #123 summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know? Finally, for product: I'd be happy to help you purchase the persist123! It's $299.99 with free shipping and a 2-year warranty. You can add it to your cart on our website, or I can guide you through the ordering process. Would you like me to check for any current promotions first?",
+      "sender": "bot",
+      "intents": [],
+      "entities": {},
+      "confidence_scores": {},
+      "message_id": 5
+    }
+  ],
+  "current_intents": [
+    "support",
+    "order",
+    "product"
+  ],
+  "last_entities": {
+    "order_number": [
+      "123",
+      "PERSIST123",
+      "ed"
+    ],
+    "product_name": [
+      "persist123",
+      "apples"
+    ],
+    "ordered_product": [
+      "red"
+    ],
+    "received_product": [
+      "green"
+    ]
+  },
+  "persistent_entities": {
+    "order_number": "123",
+    "product_name": "apples",
+    "ordered_product": "red",
+    "received_product": "green"
+  },
+  "active_agents": [
+    "general",
+    "order",
+    "support",
+    "product"
+  ],
+  "agent_contexts": {
+    "general": {
+      "session_id": "persistence_test",
+      "current_intents": [
+        "general"
+      ],
+      "last_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "persistent_entities": {
+        "order_number": "123",
+        "product_name": "apples",
+        "ordered_product": "red",
+        "received_product": "green"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.190309",
+          "message": "Hi, I'm Alice",
+          "sender": "user",
+          "intents": [
+            "general"
+          ],
+          "entities": {},
+          "confidence_scores": {
+            "general": 1.0
+          },
+          "message_id": 0
+        }
+      ],
+      "agent_context": {},
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "standard",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received green instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.195749",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": false,
+      "substitution_details": null,
+      "conversation_summary": "Current topics: general",
+      "entity_confidence": {},
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": false,
+        "last_question_type": null
+      },
+      "recent_agent_usage": {},
+      "current_message": "Hi, I'm Alice",
+      "detected_intent": "general",
+      "detected_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence": 1.0,
+      "is_multi_intent": false,
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "standard",
+        "user_satisfaction": "neutral",
+        "conversation_length": 1,
+        "has_unresolved_issues": false
+      },
+      "issue_context": {}
+    },
+    "order": {
+      "session_id": "persistence_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "persistent_entities": {
+        "order_number": "123",
+        "product_name": "apples",
+        "ordered_product": "red",
+        "received_product": "green"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.190309",
+          "message": "Hi, I'm Alice",
+          "sender": "user",
+          "intents": [
+            "general"
+          ],
+          "entities": {},
+          "confidence_scores": {
+            "general": 1.0
+          },
+          "message_id": 0
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.190915",
+          "message": "Hello! I'm Kiro, your AI assistant. I can help you with orders, products, support issues, and general questions. What would you like to know about today?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 1
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.192175",
+          "message": "I have order #PERSIST123",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "123",
+              "PERSIST123"
+            ],
+            "product_name": [
+              "persist123"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 2
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.193019",
+          "message": "here's your order #123 summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 3
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.195717",
+          "message": "I ordered red apples but got green apples",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "red"
+            ],
+            "received_product": [
+              "green"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 4
+        }
+      ],
+      "agent_context": {
+        "session_id": "persistence_test",
+        "current_intents": [
+          "order"
+        ],
+        "last_entities": {
+          "order_number": [
+            "123",
+            "PERSIST123",
+            "ed"
+          ],
+          "product_name": [
+            "persist123",
+            "apples"
+          ],
+          "ordered_product": [
+            "red"
+          ],
+          "received_product": [
+            "green"
+          ]
+        },
+        "persistent_entities": {
+          "order_number": "123",
+          "product_name": "apples",
+          "ordered_product": "red",
+          "received_product": "green"
+        },
+        "conversation_history": [
+          {
+            "timestamp": "2025-12-28T12:42:39.190309",
+            "message": "Hi, I'm Alice",
+            "sender": "user",
+            "intents": [
+              "general"
+            ],
+            "entities": {},
+            "confidence_scores": {
+              "general": 1.0
+            },
+            "message_id": 0
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.190915",
+            "message": "Hello! I'm Kiro, your AI assistant. I can help you with orders, products, support issues, and general questions. What would you like to know about today?",
+            "sender": "bot",
+            "intents": [],
+            "entities": {},
+            "confidence_scores": {},
+            "message_id": 1
+          },
+          {
+            "timestamp": "2025-12-28T12:42:39.192175",
+            "message": "I have order #PERSIST123",
+            "sender": "user",
+            "intents": [
+              "order"
+            ],
+            "entities": {
+              "order_number": [
+                "123",
+                "PERSIST123"
+              ],
+              "product_name": [
+                "persist123"
+              ]
+            },
+            "confidence_scores": {
+              "order": 1.0
+            },
+            "message_id": 2
+          }
+        ],
+        "agent_context": {},
+        "user_preferences": {},
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "standard",
+        "user_satisfaction": "neutral",
+        "pending_actions": {},
+        "active_workflows": {},
+        "last_topic": null,
+        "unresolved_issues": [
+          {
+            "type": "product_substitution",
+            "description": "Received green instead of ordered red",
+            "priority": "high",
+            "created_at": "2025-12-28T12:42:39.195749",
+            "status": "open"
+          }
+        ],
+        "has_product_substitution": false,
+        "substitution_details": null,
+        "conversation_summary": "order number: 123; product name: persist123; Current topics: order",
+        "entity_confidence": {
+          "order_number": 0.9,
+          "product_name": 0.7
+        },
+        "follow_up_context": {
+          "expecting_order_number": false,
+          "expecting_product_correction": false,
+          "expecting_confirmation": true,
+          "last_question_type": "confirmation"
+        },
+        "recent_agent_usage": {},
+        "current_message": "I have order #PERSIST123",
+        "detected_intent": "order",
+        "detected_entities": {
+          "order_number": [
+            "123",
+            "PERSIST123",
+            "ed"
+          ],
+          "product_name": [
+            "persist123",
+            "apples"
+          ],
+          "ordered_product": [
+            "red"
+          ],
+          "received_product": [
+            "green"
+          ]
+        },
+        "confidence": 1.0,
+        "is_multi_intent": false,
+        "personalization": {
+          "user_name": null,
+          "communication_style": "friendly",
+          "user_tone": "neutral",
+          "empathy_level": "standard",
+          "user_satisfaction": "neutral",
+          "conversation_length": 3,
+          "has_unresolved_issues": false
+        },
+        "issue_context": {}
+      },
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received green instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.195749",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "red",
+        "received": "green",
+        "status": "unresolved"
+      },
+      "conversation_summary": "order number: 123; product name: apples; ordered product: red; received product: green; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "order_number": 0.95,
+        "product_name": 0.8,
+        "ordered_product": 0.7,
+        "received_product": 0.7
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": true,
+        "last_question_type": "confirmation"
+      },
+      "recent_agent_usage": {},
+      "current_message": "I ordered red apples but got green apples",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence": 0.3,
+      "is_multi_intent": true,
+      "other_intents": [
+        "support",
+        "product"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 5,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "red apples",
+          "received": "green",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    },
+    "support": {
+      "session_id": "persistence_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "persistent_entities": {
+        "order_number": "123",
+        "product_name": "apples",
+        "ordered_product": "red",
+        "received_product": "green"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.190309",
+          "message": "Hi, I'm Alice",
+          "sender": "user",
+          "intents": [
+            "general"
+          ],
+          "entities": {},
+          "confidence_scores": {
+            "general": 1.0
+          },
+          "message_id": 0
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.190915",
+          "message": "Hello! I'm Kiro, your AI assistant. I can help you with orders, products, support issues, and general questions. What would you like to know about today?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 1
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.192175",
+          "message": "I have order #PERSIST123",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "123",
+              "PERSIST123"
+            ],
+            "product_name": [
+              "persist123"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 2
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.193019",
+          "message": "here's your order #123 summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 3
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.195717",
+          "message": "I ordered red apples but got green apples",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "red"
+            ],
+            "received_product": [
+              "green"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 4
+        }
+      ],
+      "agent_context": {},
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received green instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.195749",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "red",
+        "received": "green",
+        "status": "unresolved"
+      },
+      "conversation_summary": "order number: 123; product name: apples; ordered product: red; received product: green; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "order_number": 0.95,
+        "product_name": 0.8,
+        "ordered_product": 0.7,
+        "received_product": 0.7
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": true,
+        "last_question_type": "confirmation"
+      },
+      "recent_agent_usage": {},
+      "current_message": "I ordered red apples but got green apples",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence": 0.6,
+      "is_multi_intent": true,
+      "other_intents": [
+        "order",
+        "product"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 5,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "red apples",
+          "received": "green",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    },
+    "product": {
+      "session_id": "persistence_test",
+      "current_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "last_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "persistent_entities": {
+        "order_number": "123",
+        "product_name": "apples",
+        "ordered_product": "red",
+        "received_product": "green"
+      },
+      "conversation_history": [
+        {
+          "timestamp": "2025-12-28T12:42:39.190309",
+          "message": "Hi, I'm Alice",
+          "sender": "user",
+          "intents": [
+            "general"
+          ],
+          "entities": {},
+          "confidence_scores": {
+            "general": 1.0
+          },
+          "message_id": 0
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.190915",
+          "message": "Hello! I'm Kiro, your AI assistant. I can help you with orders, products, support issues, and general questions. What would you like to know about today?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 1
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.192175",
+          "message": "I have order #PERSIST123",
+          "sender": "user",
+          "intents": [
+            "order"
+          ],
+          "entities": {
+            "order_number": [
+              "123",
+              "PERSIST123"
+            ],
+            "product_name": [
+              "persist123"
+            ]
+          },
+          "confidence_scores": {
+            "order": 1.0
+          },
+          "message_id": 2
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.193019",
+          "message": "here's your order #123 summary: Placed 2 days ago, total $89.99, currently in transit, estimated delivery tomorrow. What specific information would you like to know?",
+          "sender": "bot",
+          "intents": [],
+          "entities": {},
+          "confidence_scores": {},
+          "message_id": 3
+        },
+        {
+          "timestamp": "2025-12-28T12:42:39.195717",
+          "message": "I ordered red apples but got green apples",
+          "sender": "user",
+          "intents": [
+            "support",
+            "order",
+            "product"
+          ],
+          "entities": {
+            "order_number": [
+              "ed"
+            ],
+            "product_name": [
+              "apples"
+            ],
+            "ordered_product": [
+              "red"
+            ],
+            "received_product": [
+              "green"
+            ]
+          },
+          "confidence_scores": {
+            "support": 0.6,
+            "order": 0.3,
+            "product": 0.3
+          },
+          "message_id": 4
+        }
+      ],
+      "agent_context": {},
+      "user_preferences": {},
+      "user_name": null,
+      "communication_style": "friendly",
+      "user_tone": "neutral",
+      "empathy_level": "high",
+      "user_satisfaction": "neutral",
+      "pending_actions": {},
+      "active_workflows": {},
+      "last_topic": null,
+      "unresolved_issues": [
+        {
+          "type": "product_substitution",
+          "description": "Received green instead of ordered red",
+          "priority": "high",
+          "created_at": "2025-12-28T12:42:39.195749",
+          "status": "open"
+        }
+      ],
+      "has_product_substitution": true,
+      "substitution_details": {
+        "ordered": "red",
+        "received": "green",
+        "status": "unresolved"
+      },
+      "conversation_summary": "order number: 123; product name: apples; ordered product: red; received product: green; Current topics: support, order, product; Open issues: 1",
+      "entity_confidence": {
+        "order_number": 0.95,
+        "product_name": 0.8,
+        "ordered_product": 0.7,
+        "received_product": 0.7
+      },
+      "follow_up_context": {
+        "expecting_order_number": false,
+        "expecting_product_correction": false,
+        "expecting_confirmation": true,
+        "last_question_type": "confirmation"
+      },
+      "recent_agent_usage": {},
+      "current_message": "I ordered red apples but got green apples",
+      "detected_intents": [
+        "support",
+        "order",
+        "product"
+      ],
+      "detected_entities": {
+        "order_number": [
+          "123",
+          "PERSIST123",
+          "ed"
+        ],
+        "product_name": [
+          "persist123",
+          "apples"
+        ],
+        "ordered_product": [
+          "red"
+        ],
+        "received_product": [
+          "green"
+        ]
+      },
+      "confidence": 0.3,
+      "is_multi_intent": true,
+      "other_intents": [
+        "support",
+        "order"
+      ],
+      "personalization": {
+        "user_name": null,
+        "communication_style": "friendly",
+        "user_tone": "neutral",
+        "empathy_level": "high",
+        "user_satisfaction": "neutral",
+        "conversation_length": 5,
+        "has_unresolved_issues": true
+      },
+      "issue_context": {
+        "wrong_item": {
+          "ordered": "red apples",
+          "received": "green",
+          "type": "wrong_item_delivery",
+          "confidence": "high",
+          "pattern_matched": "ordered\\s+([A-Za-z\\s]+?)\\s+but\\s+got\\s+([A-Za-z\\s]+?)(?:\\s|$|\\.)",
+          "detection_method": "pattern_matching"
+        }
+      }
+    }
+  },
+  "user_preferences": {},
+  "user_name": null,
+  "communication_style": "friendly",
+  "user_tone": "neutral",
+  "empathy_level": "high",
+  "pending_actions": {},
+  "unresolved_issues": [
+    {
+      "type": "product_substitution",
+      "description": "Received green instead of ordered red",
+      "priority": "high",
+      "created_at": "2025-12-28T12:42:39.195749",
+      "status": "open"
+    }
+  ],
+  "expires_at": "2025-12-29T12:42:39.202759"
+}

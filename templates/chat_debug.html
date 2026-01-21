@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Widget Debug - Shop at RVCE</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='ecommerce.css') }}"
+    />
+    <style>
+      body {
+        background: #f0f2f5;
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+      }
+      .debug-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      }
+      .debug-title {
+        color: #232f3e;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .debug-section {
+        margin-bottom: 30px;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border-left: 4px solid #ff9900;
+      }
+      .debug-button {
+        background: #ff9900;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin: 5px;
+        font-weight: 500;
+      }
+      .debug-button:hover {
+        background: #e68900;
+      }
+      .debug-log {
+        background: #1a1a1a;
+        color: #00ff00;
+        padding: 15px;
+        border-radius: 6px;
+        font-family: "Courier New", monospace;
+        font-size: 12px;
+        max-height: 200px;
+        overflow-y: auto;
+        margin-top: 10px;
+      }
+      .status-indicator {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      .status-ok {
+        background: #2ed573;
+      }
+      .status-error {
+        background: #ff4757;
+      }
+      .status-warning {
+        background: #ffa502;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="debug-container">
+      <h1 class="debug-title">🔧 Chat Widget Debug Panel</h1>
+
+      <div class="debug-section">
+        <h3><i class="fas fa-info-circle"></i> System Status</h3>
+        <p>
+          <span class="status-indicator status-ok"></span>Server: Running on
+          localhost:5000
+        </p>
+        <p>
+          <span class="status-indicator" id="jsStatus"></span>JavaScript:
+          <span id="jsStatusText">Loading...</span>
+        </p>
+        <p>
+          <span class="status-indicator" id="chatStatus"></span>Chat Widget:
+          <span id="chatStatusText">Initializing...</span>
+        </p>
+      </div>
+
+      <div class="debug-section">
+        <h3><i class="fas fa-play-circle"></i> Quick Tests</h3>
+        <button class="debug-button" onclick="testChatToggle()">
+          <i class="fas fa-comments"></i> Test Chat Toggle
+        </button>
+        <button class="debug-button" onclick="testElementsExist()">
+          <i class="fas fa-search"></i> Check Elements
+        </button>
+        <button class="debug-button" onclick="testSocketConnection()">
+          <i class="fas fa-plug"></i> Test Socket
+        </button>
+        <button class="debug-button" onclick="clearDebugLog()">
+          <i class="fas fa-trash"></i> Clear Log
+        </button>
+      </div>
+
+      <div class="debug-section">
+        <h3><i class="fas fa-terminal"></i> Debug Console</h3>
+        <div id="debugLog" class="debug-log">
+          Debug log will appear here...<br />
+        </div>
+      </div>
+
+      <div class="debug-section">
+        <h3><i class="fas fa-external-link-alt"></i> Quick Links</h3>
+        <a href="/ecommerce" class="debug-button" style="text-decoration: none">
+          <i class="fas fa-store"></i> Go to E-commerce Page
+        </a>
+        <a href="/" class="debug-button" style="text-decoration: none">
+          <i class="fas fa-home"></i> Go to Main Chat
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating Chat Widget (Same as e-commerce page) -->
+    <div class="chat-widget">
+      <!-- Chat Button -->
+      <div class="chat-button" id="chatButton">
+        <i class="fas fa-comments"></i>
+        <div class="chat-notification" id="chatNotification">1</div>
+      </div>
+
+      <!-- Chat Panel -->
+      <div class="chat-panel" id="chatPanel">
+        <!-- Drag Handle -->
+        <div class="chat-drag-handle" id="chatDragHandle"></div>
+
+        <!-- Resize Handles -->
+        <div class="resize-handle resize-n" data-direction="n"></div>
+        <div class="resize-handle resize-ne" data-direction="ne"></div>
+        <div class="resize-handle resize-e" data-direction="e"></div>
+        <div class="resize-handle resize-se" data-direction="se"></div>
+        <div class="resize-handle resize-s" data-direction="s"></div>
+        <div class="resize-handle resize-sw" data-direction="sw"></div>
+        <div class="resize-handle resize-w" data-direction="w"></div>
+        <div class="resize-handle resize-nw" data-direction="nw"></div>
+
+        <!-- Resize Indicator -->
+        <div class="resize-indicator"></div>
+
+        <!-- Chat Header -->
+        <div class="chat-header">
+          <div class="chat-agent-info">
+            <div class="agent-avatar">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="agent-details">
+              <h3>SupportX AI</h3>
+              <p class="agent-status">Online • Ready to help</p>
+            </div>
+          </div>
+          <div class="chat-controls">
+            <button
+              class="chat-control-btn"
+              id="chatTtsBtn"
+              title="Toggle Voice"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <button
+              class="chat-control-btn"
+              id="chatResetSizeBtn"
+              title="Reset Size"
+            >
+              <i class="fas fa-expand-arrows-alt"></i>
+            </button>
+            <button
+              class="chat-control-btn"
+              id="chatMinimizeBtn"
+              title="Minimize"
+            >
+              <i class="fas fa-minus"></i>
+            </button>
+            <button class="chat-control-btn" id="chatCloseBtn" title="Close">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chatMessages">
+          <!-- Welcome Message -->
+          <div class="chat-message bot-message">
+            <div class="message-avatar">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="message-content">
+              <div class="message-bubble">
+                <p>
+                  Hello! I'm SupportX AI, your campus shopping assistant. I can
+                  help you with orders, returns, billing, and product questions.
+                  How can I assist you today?
+                </p>
+              </div>
+              <div class="message-time" id="welcomeTime"></div>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="quick-actions" id="quickActions">
+            <div class="quick-actions-header">
+              <span>Quick Help Options:</span>
+            </div>
+            <div class="quick-actions-grid">
+              <button class="quick-action-btn" data-message="Track my order">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Track Order</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="I want to return an item"
+              >
+                <i class="fas fa-undo"></i>
+                <span>Return Item</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="I have a billing issue"
+              >
+                <i class="fas fa-credit-card"></i>
+                <span>Billing Help</span>
+              </button>
+              <button class="quick-action-btn" data-message="Show me textbooks">
+                <i class="fas fa-book"></i>
+                <span>Find Books</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="Campus delivery options"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Delivery Info</span>
+              </button>
+              <button
+                class="quick-action-btn"
+                data-message="Student discount available?"
+              >
+                <i class="fas fa-percentage"></i>
+                <span>Discounts</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Typing Indicator -->
+        <div
+          class="typing-indicator"
+          id="typingIndicator"
+          style="display: none"
+        >
+          <div class="message-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="typing-content">
+            <div class="typing-bubble">
+              <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-container">
+          <div class="chat-input-wrapper">
+            <textarea
+              id="chatInput"
+              placeholder="Type your message here..."
+              rows="1"
+              maxlength="1000"
+            ></textarea>
+            <div class="chat-input-actions">
+              <button
+                class="chat-action-btn voice-btn"
+                id="chatVoiceBtn"
+                title="Voice Input"
+              >
+                <i class="fas fa-microphone"></i>
+              </button>
+              <button
+                class="chat-action-btn send-btn"
+                id="chatSendBtn"
+                title="Send Message"
+                disabled
+              >
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+          <div class="chat-input-footer">
+            <div class="connection-status" id="connectionStatus">
+              <span class="status-indicator"></span>
+              <span class="status-label">Connected</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TTS Status -->
+    <div class="tts-status" id="ttsStatus" style="display: none">
+      <div class="tts-content">
+        <i class="fas fa-volume-up"></i>
+        <span>Speaking...</span>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='ecommerce.js') }}"></script>
+
+    <script>
+      let debugWidget = null;
+
+      // Debug functions
+      function debugLog(message) {
+        const log = document.getElementById("debugLog");
+        const timestamp = new Date().toLocaleTimeString();
+        log.innerHTML += `[${timestamp}] ${message}<br>`;
+        log.scrollTop = log.scrollHeight;
+      }
+
+      function clearDebugLog() {
+        document.getElementById("debugLog").innerHTML =
+          "Debug log cleared...<br>";
+      }
+
+      function updateStatus(elementId, textId, status, message) {
+        const indicator = document.getElementById(elementId);
+        const text = document.getElementById(textId);
+
+        indicator.className =
+          "status-indicator " +
+          (status === "ok"
+            ? "status-ok"
+            : status === "error"
+              ? "status-error"
+              : "status-warning");
+        text.textContent = message;
+      }
+
+      function testChatToggle() {
+        debugLog("🧪 Testing chat toggle...");
+
+        if (
+          debugWidget &&
+          debugWidget.elements &&
+          debugWidget.elements.chatButton
+        ) {
+          debugWidget.elements.chatButton.click();
+          debugLog("✅ Chat button clicked programmatically");
+        } else {
+          debugLog("❌ Chat widget or button not available");
+
+          // Fallback test
+          const button = document.getElementById("chatButton");
+          if (button) {
+            button.click();
+            debugLog("✅ Fallback: Direct button click");
+          } else {
+            debugLog("❌ Chat button element not found");
+          }
+        }
+      }
+
+      function testElementsExist() {
+        debugLog("🔍 Checking critical elements...");
+
+        const elements = [
+          "chatButton",
+          "chatPanel",
+          "chatMessages",
+          "chatInput",
+          "chatSendBtn",
+          "quickActions",
+        ];
+
+        let allFound = true;
+        elements.forEach((id) => {
+          const element = document.getElementById(id);
+          if (element) {
+            debugLog(`✅ ${id}: Found`);
+          } else {
+            debugLog(`❌ ${id}: Missing`);
+            allFound = false;
+          }
+        });
+
+        debugLog(
+          allFound ? "✅ All elements found" : "❌ Some elements missing",
+        );
+      }
+
+      function testSocketConnection() {
+        debugLog("🔌 Testing socket connection...");
+
+        if (debugWidget && debugWidget.socket) {
+          if (debugWidget.socket.connected) {
+            debugLog("✅ Socket is connected");
+          } else {
+            debugLog("⚠️ Socket exists but not connected");
+          }
+        } else {
+          debugLog("❌ Socket not available");
+        }
+      }
+
+      // Initialize when page loads
+      document.addEventListener("DOMContentLoaded", () => {
+        debugLog("🚀 Debug page loaded");
+
+        // Check if JavaScript is working
+        updateStatus("jsStatus", "jsStatusText", "ok", "Working");
+        debugLog("✅ JavaScript is working");
+
+        // Try to initialize chat widget
+        try {
+          debugWidget = new EcommerceChatWidget();
+          updateStatus("chatStatus", "chatStatusText", "ok", "Initialized");
+          debugLog("✅ Chat widget initialized successfully");
+        } catch (error) {
+          updateStatus(
+            "chatStatus",
+            "chatStatusText",
+            "error",
+            "Failed to initialize",
+          );
+          debugLog("❌ Chat widget initialization failed: " + error.message);
+        }
+
+        debugLog(
+          "🎯 Ready for testing! Use the buttons above to test functionality.",
+        );
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "domain": "E-commerce",
+    "category": "Orders",
+    "question": "How can I track my order?",
+    "answer": "You can track your order by entering your order number on our tracking page or by logging into your account. You'll receive real-time updates on your order status."
+  },
+  {
+    "id": 2,
+    "domain": "E-commerce",
+    "category": "Returns & Refunds",
+    "question": "How do I return an item?",
+    "answer": "To return an item, go to 'My Orders', select the item you want to return, choose a reason, and schedule a pickup. Refunds are processed within 5-7 business days after we receive the item."
+  },
+  {
+    "id": 3,
+    "domain": "E-commerce",
+    "category": "Billing",
+    "question": "Why was I charged twice?",
+    "answer": "Double charges can occur due to payment gateway issues. Please check if one charge is pending - it will be automatically reversed. If both charges are confirmed, contact our billing team for immediate assistance."
+  },
+  {
+    "id": 4,
+    "domain": "E-commerce",
+    "category": "Delivery",
+    "question": "When will my order arrive?",
+    "answer": "Delivery times vary by location and product. Standard delivery takes 3-5 business days, while express delivery takes 1-2 business days. You can check estimated delivery date in your order details."
+  },
+  {
+    "id": 5,
+    "domain": "E-commerce",
+    "category": "Account & Login",
+    "question": "I forgot my password",
+    "answer": "Click 'Forgot Password' on the login page, enter your email address, and we'll send you a password reset link. The link is valid for 24 hours."
+  },
+  {
+    "id": 6,
+    "domain": "E-commerce",
+    "category": "Technical Issues",
+    "question": "The website is not loading",
+    "answer": "Try clearing your browser cache and cookies, or try accessing the site from an incognito window. If the issue persists, please try a different browser or contact technical support."
+  },
+  {
+    "id": 7,
+    "domain": "Food Delivery",
+    "category": "Orders",
+    "question": "Can I modify my food order?",
+    "answer": "You can modify your order within 2 minutes of placing it, before the restaurant starts preparing it. Go to 'Active Orders' and click 'Modify Order' if available."
+  },
+  {
+    "id": 8,
+    "domain": "Food Delivery",
+    "category": "Delivery",
+    "question": "My food is taking too long",
+    "answer": "Food delivery times can vary based on restaurant preparation time and delivery distance. If your order is significantly delayed, we'll provide real-time updates and may offer compensation."
+  },
+  {
+    "id": 9,
+    "domain": "Food Delivery",
+    "category": "Payments",
+    "question": "Payment failed but money was deducted",
+    "answer": "If payment fails but money is deducted, it's usually a temporary hold that will be released within 3-5 business days. If not released automatically, contact our payment support team."
+  },
+  {
+    "id": 10,
+    "domain": "Food Delivery",
+    "category": "Returns & Refunds",
+    "question": "The food quality was poor",
+    "answer": "We're sorry about the poor food quality. Please report this through the app within 24 hours of delivery. We'll investigate with the restaurant and provide a refund or credit as appropriate."
+  },
+  {
+    "id": 11,
+    "domain": "General",
+    "category": "General Queries",
+    "question": "How do I contact customer support?",
+    "answer": "You can contact us through this chat, email us at support@company.com, or call our helpline. Our support team is available 24/7 to assist you."
+  },
+  {
+    "id": 12,
+    "domain": "General",
+    "category": "General Queries",
+    "question": "What are your business hours?",
+    "answer": "Our customer support is available 24/7. However, some services like refund processing and technical support may have specific business hours (9 AM - 6 PM, Monday to Friday)."
+  },
+  {
+    "id": 13,
+    "domain": "E-commerce",
+    "category": "Offers & Discounts",
+    "question": "How do I apply a coupon code?",
+    "answer": "Enter your coupon code in the 'Promo Code' field during checkout. Make sure the code is valid and meets the minimum order requirements. The discount will be applied automatically."
+  },
+  {
+    "id": 14,
+    "domain": "E-commerce",
+    "category": "Offers & Discounts",
+    "question": "Why didn't my discount apply?",
+    "answer": "Discounts may not apply if the coupon has expired, doesn't meet minimum order value, or isn't valid for the selected items. Check the coupon terms and conditions for details."
+  },
+  {
+    "id": 15,
+    "domain": "General",
+    "category": "Technical Issues",
+    "question": "The app keeps crashing",
+    "answer": "Try updating the app to the latest version, restart your device, or clear the app cache. If the problem continues, uninstall and reinstall the app, or contact technical support."
+  }
+]

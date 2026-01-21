@@ -1,0 +1,5944 @@
+[
+  {
+    "customer_id": "CUST0001",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD54582",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 42310
+      },
+      {
+        "order_id": "ORD63640",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 30707
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0002",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD90495",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 27357
+      },
+      {
+        "order_id": "ORD82776",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 16432
+      },
+      {
+        "order_id": "ORD85872",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 50096
+      },
+      {
+        "order_id": "ORD96616",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 15468
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0003",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD14533",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 50745
+      },
+      {
+        "order_id": "ORD94994",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 23216
+      },
+      {
+        "order_id": "ORD88998",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 38537
+      },
+      {
+        "order_id": "ORD92054",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 38441
+      },
+      {
+        "order_id": "ORD41273",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 10348
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0004",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD16399",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 16670
+      },
+      {
+        "order_id": "ORD53682",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 19262
+      },
+      {
+        "order_id": "ORD64970",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 24721
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0005",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD15454",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 11605
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0006",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD32016",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 14854
+      },
+      {
+        "order_id": "ORD45733",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 49054
+      },
+      {
+        "order_id": "ORD38421",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 52442
+      },
+      {
+        "order_id": "ORD11205",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 42722
+      },
+      {
+        "order_id": "ORD85649",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 29556
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0007",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD57676",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 7182
+      },
+      {
+        "order_id": "ORD37652",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 18911
+      },
+      {
+        "order_id": "ORD19476",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 59984
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0008",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD66271",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 13577
+      },
+      {
+        "order_id": "ORD16626",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 6753
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0009",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD58955",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 41425
+      },
+      {
+        "order_id": "ORD48422",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 25690
+      },
+      {
+        "order_id": "ORD71178",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 21166
+      },
+      {
+        "order_id": "ORD76737",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 8897
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0010",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD76682",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 21054
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0011",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD42067",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 32977
+      },
+      {
+        "order_id": "ORD28261",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 10650
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0012",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD30403",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 14237
+      },
+      {
+        "order_id": "ORD84020",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 48571
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0013",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD40876",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 18444
+      },
+      {
+        "order_id": "ORD20203",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 33747
+      },
+      {
+        "order_id": "ORD78542",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 51260
+      },
+      {
+        "order_id": "ORD89151",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 52523
+      },
+      {
+        "order_id": "ORD49695",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 7317
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0014",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD34352",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 57266
+      },
+      {
+        "order_id": "ORD63879",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 2985
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0015",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD84093",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 49963
+      },
+      {
+        "order_id": "ORD46949",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 31314
+      },
+      {
+        "order_id": "ORD88679",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 9921
+      },
+      {
+        "order_id": "ORD87925",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 8698
+      },
+      {
+        "order_id": "ORD42914",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 42041
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0016",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD97606",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 29937
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0017",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD84968",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 10978
+      },
+      {
+        "order_id": "ORD16774",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 3523
+      },
+      {
+        "order_id": "ORD41196",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 51123
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0018",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD31273",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 17006
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0019",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD21950",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 32105
+      },
+      {
+        "order_id": "ORD27981",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 5793
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0020",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD10475",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 46039
+      },
+      {
+        "order_id": "ORD79401",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 33301
+      },
+      {
+        "order_id": "ORD28901",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 5301
+      },
+      {
+        "order_id": "ORD30087",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 7836
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0021",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD94399",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 55458
+      },
+      {
+        "order_id": "ORD28464",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 49595
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0022",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD98241",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 42873
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0023",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD23722",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 34753
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0024",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD69649",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 44622
+      },
+      {
+        "order_id": "ORD55535",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 48751
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0025",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD97480",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 3183
+      },
+      {
+        "order_id": "ORD43783",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 1243
+      },
+      {
+        "order_id": "ORD41082",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 10029
+      },
+      {
+        "order_id": "ORD80824",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 41786
+      },
+      {
+        "order_id": "ORD89707",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 31629
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0026",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD39407",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 32198
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0027",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD17286",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 52935
+      },
+      {
+        "order_id": "ORD77922",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 11108
+      },
+      {
+        "order_id": "ORD42054",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 39716
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0028",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD37554",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 25250
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0029",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD13162",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 25379
+      },
+      {
+        "order_id": "ORD74759",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 25503
+      },
+      {
+        "order_id": "ORD46527",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 10127
+      },
+      {
+        "order_id": "ORD55982",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 47819
+      },
+      {
+        "order_id": "ORD13500",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 48117
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0030",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD89016",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 9702
+      },
+      {
+        "order_id": "ORD51112",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 16671
+      },
+      {
+        "order_id": "ORD49304",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 19400
+      },
+      {
+        "order_id": "ORD19364",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 5313
+      },
+      {
+        "order_id": "ORD10127",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 37897
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0031",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD42654",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 13238
+      },
+      {
+        "order_id": "ORD72363",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 9221
+      },
+      {
+        "order_id": "ORD54054",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 8354
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0032",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD32565",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 43050
+      },
+      {
+        "order_id": "ORD81830",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 13710
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0033",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD47604",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 50147
+      },
+      {
+        "order_id": "ORD31539",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 49952
+      },
+      {
+        "order_id": "ORD52063",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 15941
+      },
+      {
+        "order_id": "ORD91709",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 41291
+      },
+      {
+        "order_id": "ORD91322",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 50023
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0034",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD57947",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 38146
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0035",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD45993",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 12595
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0036",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD88950",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 36083
+      },
+      {
+        "order_id": "ORD54159",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 24864
+      },
+      {
+        "order_id": "ORD60143",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 24326
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0037",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD39065",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 39173
+      },
+      {
+        "order_id": "ORD17892",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 17752
+      },
+      {
+        "order_id": "ORD98492",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 26918
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0038",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD29258",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 50495
+      },
+      {
+        "order_id": "ORD12837",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 3778
+      },
+      {
+        "order_id": "ORD58948",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 17959
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0039",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD40864",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 33100
+      },
+      {
+        "order_id": "ORD19192",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 2167
+      },
+      {
+        "order_id": "ORD63072",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 17628
+      },
+      {
+        "order_id": "ORD63414",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 50425
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0040",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD55240",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 12250
+      },
+      {
+        "order_id": "ORD92260",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 27389
+      },
+      {
+        "order_id": "ORD35103",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 12689
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0041",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD30093",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 52346
+      },
+      {
+        "order_id": "ORD97137",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 22044
+      },
+      {
+        "order_id": "ORD16778",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 14664
+      },
+      {
+        "order_id": "ORD83518",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 35747
+      },
+      {
+        "order_id": "ORD61964",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 41298
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0042",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD25407",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 40596
+      },
+      {
+        "order_id": "ORD51321",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 11692
+      },
+      {
+        "order_id": "ORD26878",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 24014
+      },
+      {
+        "order_id": "ORD74950",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 1076
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0043",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD67048",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 5406
+      },
+      {
+        "order_id": "ORD77140",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 47140
+      },
+      {
+        "order_id": "ORD79299",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 18553
+      },
+      {
+        "order_id": "ORD73480",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 12885
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0044",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD82876",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 57317
+      },
+      {
+        "order_id": "ORD53789",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 29320
+      },
+      {
+        "order_id": "ORD66275",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 16418
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0045",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD38932",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 22596
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0046",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD38003",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 30121
+      },
+      {
+        "order_id": "ORD75707",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 56118
+      },
+      {
+        "order_id": "ORD61318",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 17956
+      },
+      {
+        "order_id": "ORD45507",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 46224
+      },
+      {
+        "order_id": "ORD97220",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 59348
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0047",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD77129",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 11627
+      },
+      {
+        "order_id": "ORD79349",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 45050
+      },
+      {
+        "order_id": "ORD61712",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 5811
+      },
+      {
+        "order_id": "ORD97161",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 12997
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0048",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD18348",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 895
+      },
+      {
+        "order_id": "ORD95171",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 22491
+      },
+      {
+        "order_id": "ORD90803",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 34107
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0049",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD64944",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 37929
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0050",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD71537",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 1032
+      },
+      {
+        "order_id": "ORD98244",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 26100
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0051",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD57756",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 44234
+      },
+      {
+        "order_id": "ORD70389",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 42710
+      },
+      {
+        "order_id": "ORD35695",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 26619
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0052",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD15781",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 45516
+      },
+      {
+        "order_id": "ORD58539",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 58010
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0053",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD45785",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 40652
+      },
+      {
+        "order_id": "ORD53024",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 45932
+      },
+      {
+        "order_id": "ORD99975",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 8185
+      },
+      {
+        "order_id": "ORD56889",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 56737
+      },
+      {
+        "order_id": "ORD62226",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 42299
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0054",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD18128",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 14239
+      },
+      {
+        "order_id": "ORD40254",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 11767
+      },
+      {
+        "order_id": "ORD84997",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 3949
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0055",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD10740",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 7937
+      },
+      {
+        "order_id": "ORD13540",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 39827
+      },
+      {
+        "order_id": "ORD90970",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 24675
+      },
+      {
+        "order_id": "ORD35416",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 4315
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0056",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD87303",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 52248
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0057",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD76078",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 22621
+      },
+      {
+        "order_id": "ORD39863",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 37751
+      },
+      {
+        "order_id": "ORD78745",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 44244
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0058",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD34415",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 59351
+      },
+      {
+        "order_id": "ORD54427",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 17709
+      },
+      {
+        "order_id": "ORD34411",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 56594
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0059",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD20283",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 59650
+      },
+      {
+        "order_id": "ORD62572",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 6866
+      },
+      {
+        "order_id": "ORD42394",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 57286
+      },
+      {
+        "order_id": "ORD76442",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 18608
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0060",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD29391",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 56358
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0061",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD58662",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 398
+      },
+      {
+        "order_id": "ORD83676",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 17648
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0062",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD89240",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 669
+      },
+      {
+        "order_id": "ORD51303",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 56716
+      },
+      {
+        "order_id": "ORD52959",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 20295
+      },
+      {
+        "order_id": "ORD93535",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 31015
+      },
+      {
+        "order_id": "ORD67861",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 55676
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0063",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD74374",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 51426
+      },
+      {
+        "order_id": "ORD36484",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 12945
+      },
+      {
+        "order_id": "ORD64461",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 6818
+      },
+      {
+        "order_id": "ORD40271",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 12035
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0064",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD56401",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 21156
+      },
+      {
+        "order_id": "ORD44010",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 26494
+      },
+      {
+        "order_id": "ORD68030",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 27940
+      },
+      {
+        "order_id": "ORD61451",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 6573
+      },
+      {
+        "order_id": "ORD75412",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 41888
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0065",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD14825",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 15617
+      },
+      {
+        "order_id": "ORD50107",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 26810
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0066",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD18203",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 36117
+      },
+      {
+        "order_id": "ORD70135",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 40270
+      },
+      {
+        "order_id": "ORD61488",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 51665
+      },
+      {
+        "order_id": "ORD19195",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 41876
+      },
+      {
+        "order_id": "ORD25173",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 19402
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0067",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD18892",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 41305
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0068",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD90750",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 45305
+      },
+      {
+        "order_id": "ORD51927",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 52569
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0069",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD48090",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 57139
+      },
+      {
+        "order_id": "ORD80050",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 16784
+      },
+      {
+        "order_id": "ORD92991",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 4052
+      },
+      {
+        "order_id": "ORD15296",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 14538
+      },
+      {
+        "order_id": "ORD19493",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 45321
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0070",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD86075",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 15985
+      },
+      {
+        "order_id": "ORD83999",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 54110
+      },
+      {
+        "order_id": "ORD72804",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 4323
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0071",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD92545",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 53328
+      },
+      {
+        "order_id": "ORD35971",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 7763
+      },
+      {
+        "order_id": "ORD78424",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 50040
+      },
+      {
+        "order_id": "ORD56639",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 1074
+      },
+      {
+        "order_id": "ORD14299",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 32043
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0072",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD86673",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 25948
+      },
+      {
+        "order_id": "ORD80663",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 49328
+      },
+      {
+        "order_id": "ORD23311",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 27105
+      },
+      {
+        "order_id": "ORD74503",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 42103
+      },
+      {
+        "order_id": "ORD58119",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 17891
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0073",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD65229",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 32080
+      },
+      {
+        "order_id": "ORD39906",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 54612
+      },
+      {
+        "order_id": "ORD86834",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 39259
+      },
+      {
+        "order_id": "ORD90450",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 27659
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0074",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD67434",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 15451
+      },
+      {
+        "order_id": "ORD79288",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 17119
+      },
+      {
+        "order_id": "ORD53930",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 24525
+      },
+      {
+        "order_id": "ORD37731",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 37580
+      },
+      {
+        "order_id": "ORD99638",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 41122
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0075",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD59022",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 27131
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0076",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD43305",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 10595
+      },
+      {
+        "order_id": "ORD33382",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 25545
+      },
+      {
+        "order_id": "ORD95531",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 17921
+      },
+      {
+        "order_id": "ORD48848",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 21696
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0077",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD54804",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 26007
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0078",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD78970",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 11880
+      },
+      {
+        "order_id": "ORD56822",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 16583
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0079",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD94141",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 39354
+      },
+      {
+        "order_id": "ORD94900",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 30930
+      },
+      {
+        "order_id": "ORD64821",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 36644
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0080",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD92573",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 59375
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0081",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD78556",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 49454
+      },
+      {
+        "order_id": "ORD50406",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 3032
+      },
+      {
+        "order_id": "ORD63816",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 45980
+      },
+      {
+        "order_id": "ORD32975",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 51096
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0082",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD83807",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 52237
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0083",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD39057",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 20095
+      },
+      {
+        "order_id": "ORD11605",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 33767
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0084",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD23073",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 20614
+      },
+      {
+        "order_id": "ORD69594",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 43048
+      },
+      {
+        "order_id": "ORD60096",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 7714
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0085",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD20069",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 37696
+      },
+      {
+        "order_id": "ORD81122",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 33184
+      },
+      {
+        "order_id": "ORD71880",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 16858
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0086",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD81800",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 19663
+      },
+      {
+        "order_id": "ORD75369",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 47420
+      },
+      {
+        "order_id": "ORD83911",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 55451
+      },
+      {
+        "order_id": "ORD52588",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 58353
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0087",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD52695",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 27018
+      },
+      {
+        "order_id": "ORD51940",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 13347
+      },
+      {
+        "order_id": "ORD84126",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 42820
+      },
+      {
+        "order_id": "ORD34182",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 26671
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0088",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD34757",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 50061
+      },
+      {
+        "order_id": "ORD69806",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 10307
+      },
+      {
+        "order_id": "ORD47073",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 27706
+      },
+      {
+        "order_id": "ORD21057",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 33417
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0089",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD39188",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 49987
+      },
+      {
+        "order_id": "ORD81211",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 10402
+      },
+      {
+        "order_id": "ORD94305",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 20555
+      },
+      {
+        "order_id": "ORD31613",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 45622
+      },
+      {
+        "order_id": "ORD28882",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 48423
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0090",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD50576",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 2950
+      },
+      {
+        "order_id": "ORD17575",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 38763
+      },
+      {
+        "order_id": "ORD77676",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 38603
+      },
+      {
+        "order_id": "ORD43985",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 46621
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0091",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD92105",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 34468
+      },
+      {
+        "order_id": "ORD27971",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 50159
+      },
+      {
+        "order_id": "ORD89707",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 30348
+      },
+      {
+        "order_id": "ORD14846",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 44558
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0092",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD99941",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 17414
+      },
+      {
+        "order_id": "ORD15267",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 8925
+      },
+      {
+        "order_id": "ORD49167",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 1565
+      },
+      {
+        "order_id": "ORD55359",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 34094
+      },
+      {
+        "order_id": "ORD59345",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0093",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD97366",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 40006
+      },
+      {
+        "order_id": "ORD91617",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 1312
+      },
+      {
+        "order_id": "ORD62523",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 30373
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0094",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD68799",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 1877
+      },
+      {
+        "order_id": "ORD13873",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 51580
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0095",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD65661",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 47050
+      },
+      {
+        "order_id": "ORD12150",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 53616
+      },
+      {
+        "order_id": "ORD39566",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 32295
+      },
+      {
+        "order_id": "ORD79828",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 19339
+      },
+      {
+        "order_id": "ORD47189",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 16208
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0096",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD38740",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 42729
+      },
+      {
+        "order_id": "ORD91683",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 25262
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0097",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD29243",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 5393
+      },
+      {
+        "order_id": "ORD35795",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 20627
+      },
+      {
+        "order_id": "ORD12292",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 53739
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0098",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD97508",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 35110
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0099",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD74398",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 51116
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0100",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD85737",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 17791
+      },
+      {
+        "order_id": "ORD51156",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 12370
+      },
+      {
+        "order_id": "ORD16213",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 34002
+      },
+      {
+        "order_id": "ORD39762",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 45565
+      },
+      {
+        "order_id": "ORD52743",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 9049
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0101",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD85901",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 42176
+      },
+      {
+        "order_id": "ORD69353",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 28476
+      },
+      {
+        "order_id": "ORD87678",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 7108
+      },
+      {
+        "order_id": "ORD35384",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 18354
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0102",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD74891",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 32754
+      },
+      {
+        "order_id": "ORD47776",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 1399
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0103",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD67513",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 58166
+      },
+      {
+        "order_id": "ORD65310",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 34912
+      },
+      {
+        "order_id": "ORD93267",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 4270
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0104",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD29910",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 39395
+      },
+      {
+        "order_id": "ORD45271",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 33286
+      },
+      {
+        "order_id": "ORD26044",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 10828
+      },
+      {
+        "order_id": "ORD63654",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 37508
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0105",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD76479",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 9041
+      },
+      {
+        "order_id": "ORD79877",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 29963
+      },
+      {
+        "order_id": "ORD54655",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 41023
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0106",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD41096",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 52853
+      },
+      {
+        "order_id": "ORD17429",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 13704
+      },
+      {
+        "order_id": "ORD65510",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 16990
+      },
+      {
+        "order_id": "ORD78502",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 17030
+      },
+      {
+        "order_id": "ORD52035",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 45868
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0107",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD76129",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 12662
+      },
+      {
+        "order_id": "ORD80694",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 17015
+      },
+      {
+        "order_id": "ORD23276",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 13717
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0108",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD59462",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 13250
+      },
+      {
+        "order_id": "ORD54154",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 26483
+      },
+      {
+        "order_id": "ORD97212",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 44105
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0109",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD21338",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 28565
+      },
+      {
+        "order_id": "ORD65040",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 59134
+      },
+      {
+        "order_id": "ORD50914",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 53162
+      },
+      {
+        "order_id": "ORD93150",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 12769
+      },
+      {
+        "order_id": "ORD87903",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 11969
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0110",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD81430",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 47338
+      },
+      {
+        "order_id": "ORD58604",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 17816
+      },
+      {
+        "order_id": "ORD35292",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 46481
+      },
+      {
+        "order_id": "ORD90767",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 27135
+      },
+      {
+        "order_id": "ORD33070",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 47384
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0111",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD44453",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 39952
+      },
+      {
+        "order_id": "ORD35369",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 54106
+      },
+      {
+        "order_id": "ORD94522",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 24884
+      },
+      {
+        "order_id": "ORD80498",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 4026
+      },
+      {
+        "order_id": "ORD91101",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 29923
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0112",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD82957",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 45997
+      },
+      {
+        "order_id": "ORD94704",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 27561
+      },
+      {
+        "order_id": "ORD93455",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 36541
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0113",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD31532",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 9887
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0114",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD41453",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 37169
+      },
+      {
+        "order_id": "ORD14030",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 10868
+      },
+      {
+        "order_id": "ORD53382",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 58541
+      },
+      {
+        "order_id": "ORD65594",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 29039
+      },
+      {
+        "order_id": "ORD60633",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 23471
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0115",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD35475",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 18265
+      },
+      {
+        "order_id": "ORD86962",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 44592
+      },
+      {
+        "order_id": "ORD30164",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 39447
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0116",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD89279",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 1533
+      },
+      {
+        "order_id": "ORD75118",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 1882
+      },
+      {
+        "order_id": "ORD94863",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 11305
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0117",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD97030",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 45523
+      },
+      {
+        "order_id": "ORD36759",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 36633
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0118",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD53091",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 20392
+      },
+      {
+        "order_id": "ORD22716",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 40656
+      },
+      {
+        "order_id": "ORD97300",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 51208
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0119",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD10380",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 53615
+      },
+      {
+        "order_id": "ORD70175",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 6791
+      },
+      {
+        "order_id": "ORD73969",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 43797
+      },
+      {
+        "order_id": "ORD22569",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 8665
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0120",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD40294",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 25902
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0121",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD17892",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 25694
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0122",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD13618",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 5508
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0123",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD68907",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 51038
+      },
+      {
+        "order_id": "ORD89568",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 34221
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0124",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD45699",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 14296
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0125",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD34862",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 12334
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0126",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD41314",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 7650
+      },
+      {
+        "order_id": "ORD69554",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 36524
+      },
+      {
+        "order_id": "ORD84304",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 7447
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0127",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD28638",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 6265
+      },
+      {
+        "order_id": "ORD72647",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 17781
+      },
+      {
+        "order_id": "ORD61337",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 27244
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0128",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD27465",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 7304
+      },
+      {
+        "order_id": "ORD18221",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 26386
+      },
+      {
+        "order_id": "ORD61870",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 33985
+      },
+      {
+        "order_id": "ORD35425",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 28970
+      },
+      {
+        "order_id": "ORD51498",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 56564
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0129",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD82396",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 48757
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0130",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD89668",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 3655
+      },
+      {
+        "order_id": "ORD85264",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 17658
+      },
+      {
+        "order_id": "ORD93401",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 55061
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0131",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD92985",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 8395
+      },
+      {
+        "order_id": "ORD10583",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 30287
+      },
+      {
+        "order_id": "ORD83751",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 51286
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0132",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD41235",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 20051
+      },
+      {
+        "order_id": "ORD49322",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 45548
+      },
+      {
+        "order_id": "ORD52937",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 4513
+      },
+      {
+        "order_id": "ORD54355",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 5507
+      },
+      {
+        "order_id": "ORD16456",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 9648
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0133",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD31111",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 21515
+      },
+      {
+        "order_id": "ORD39897",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 28489
+      },
+      {
+        "order_id": "ORD56066",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 2667
+      },
+      {
+        "order_id": "ORD60478",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 42705
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0134",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD71774",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 11625
+      },
+      {
+        "order_id": "ORD71534",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 10612
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0135",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD97345",
+        "product": "Mobile Phone",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 12075
+      },
+      {
+        "order_id": "ORD85081",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 22616
+      },
+      {
+        "order_id": "ORD10708",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 3646
+      },
+      {
+        "order_id": "ORD39700",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 46022
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0136",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD89383",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 20695
+      },
+      {
+        "order_id": "ORD82743",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 42077
+      },
+      {
+        "order_id": "ORD33724",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 45286
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0137",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD79593",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 10828
+      },
+      {
+        "order_id": "ORD96182",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 53244
+      },
+      {
+        "order_id": "ORD12338",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 57494
+      },
+      {
+        "order_id": "ORD29466",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 25932
+      },
+      {
+        "order_id": "ORD58748",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 17020
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0138",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD35033",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 46670
+      },
+      {
+        "order_id": "ORD65242",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 12271
+      },
+      {
+        "order_id": "ORD29849",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 24018
+      },
+      {
+        "order_id": "ORD73753",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 36096
+      },
+      {
+        "order_id": "ORD95315",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 36692
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0139",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD34525",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 43918
+      },
+      {
+        "order_id": "ORD19621",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 2771
+      },
+      {
+        "order_id": "ORD60200",
+        "product": "Laptop",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 42350
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0140",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD24225",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 23882
+      },
+      {
+        "order_id": "ORD81641",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 51608
+      },
+      {
+        "order_id": "ORD65073",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 342
+      },
+      {
+        "order_id": "ORD16609",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 58859
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0141",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD45211",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 39394
+      },
+      {
+        "order_id": "ORD51753",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 10526
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0142",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD11389",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 53459
+      },
+      {
+        "order_id": "ORD44799",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 38139
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0143",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD89885",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 48504
+      },
+      {
+        "order_id": "ORD55209",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 3531
+      },
+      {
+        "order_id": "ORD20679",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 36834
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0144",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD28363",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 19156
+      },
+      {
+        "order_id": "ORD31842",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 23768
+      },
+      {
+        "order_id": "ORD78662",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 7077
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0145",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD69903",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 509
+      },
+      {
+        "order_id": "ORD17465",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 9761
+      },
+      {
+        "order_id": "ORD16460",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 10633
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0146",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD24231",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 45354
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0147",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD24691",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 59904
+      },
+      {
+        "order_id": "ORD47549",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 21346
+      },
+      {
+        "order_id": "ORD50373",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 23134
+      },
+      {
+        "order_id": "ORD11682",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 39861
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0148",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD78817",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 43289
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0149",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD18517",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 10496
+      },
+      {
+        "order_id": "ORD55879",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 55691
+      },
+      {
+        "order_id": "ORD18622",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 5507
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0150",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD37577",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 12410
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0151",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD11087",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 11782
+      },
+      {
+        "order_id": "ORD98466",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 9014
+      },
+      {
+        "order_id": "ORD80188",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 59320
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0152",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD39747",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 46135
+      },
+      {
+        "order_id": "ORD40552",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 6403
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0153",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD69734",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 33954
+      },
+      {
+        "order_id": "ORD88281",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 3330
+      },
+      {
+        "order_id": "ORD91961",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 21410
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0154",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD31166",
+        "product": "Headphones",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 15285
+      },
+      {
+        "order_id": "ORD35531",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 29668
+      },
+      {
+        "order_id": "ORD50621",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 25359
+      },
+      {
+        "order_id": "ORD94309",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 3662
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0155",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD17782",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 23060
+      },
+      {
+        "order_id": "ORD57103",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 54926
+      },
+      {
+        "order_id": "ORD76454",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 2572
+      },
+      {
+        "order_id": "ORD36840",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 40537
+      },
+      {
+        "order_id": "ORD88631",
+        "product": "Laptop",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 57737
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0156",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD61990",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 47167
+      },
+      {
+        "order_id": "ORD92928",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 12950
+      },
+      {
+        "order_id": "ORD75542",
+        "product": "Groceries",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 27412
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0157",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD41387",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 22188
+      },
+      {
+        "order_id": "ORD87219",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 51048
+      },
+      {
+        "order_id": "ORD32997",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 39784
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0158",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD63822",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 27729
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0159",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD34171",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 18344
+      },
+      {
+        "order_id": "ORD75065",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 34109
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0160",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD72570",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 7799
+      },
+      {
+        "order_id": "ORD55297",
+        "product": "Pizza",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 20106
+      },
+      {
+        "order_id": "ORD21658",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 46711
+      },
+      {
+        "order_id": "ORD47010",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 35608
+      },
+      {
+        "order_id": "ORD78277",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 57906
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0161",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD74615",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 25875
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0162",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD70767",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 39557
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0163",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD11340",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 36181
+      },
+      {
+        "order_id": "ORD57344",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 53561
+      },
+      {
+        "order_id": "ORD63330",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 13124
+      },
+      {
+        "order_id": "ORD40510",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 58052
+      },
+      {
+        "order_id": "ORD92441",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 17706
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0164",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD79033",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 5293
+      },
+      {
+        "order_id": "ORD13388",
+        "product": "T-shirt",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 31889
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0165",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD67423",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 36068
+      },
+      {
+        "order_id": "ORD79028",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 40563
+      },
+      {
+        "order_id": "ORD66617",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 53970
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0166",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD20440",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 10645
+      },
+      {
+        "order_id": "ORD62213",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 45202
+      },
+      {
+        "order_id": "ORD40320",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 14685
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0167",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD33021",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 55127
+      },
+      {
+        "order_id": "ORD58562",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 45089
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0168",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD84322",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 43272
+      },
+      {
+        "order_id": "ORD58383",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 10355
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0169",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD54390",
+        "product": "Groceries",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 57120
+      },
+      {
+        "order_id": "ORD34579",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 37638
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0170",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD93048",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 34744
+      },
+      {
+        "order_id": "ORD39634",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 39313
+      },
+      {
+        "order_id": "ORD41105",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 45699
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0171",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD83688",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 20051
+      },
+      {
+        "order_id": "ORD89896",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 54311
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0172",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD24461",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 40657
+      },
+      {
+        "order_id": "ORD70561",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 17213
+      },
+      {
+        "order_id": "ORD30510",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 12073
+      },
+      {
+        "order_id": "ORD86928",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 52755
+      },
+      {
+        "order_id": "ORD23656",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 38264
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0173",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD87596",
+        "product": "Shoes",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 38015
+      },
+      {
+        "order_id": "ORD69212",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 42764
+      },
+      {
+        "order_id": "ORD27692",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 55472
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0174",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD65754",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 304
+      },
+      {
+        "order_id": "ORD61843",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 10676
+      },
+      {
+        "order_id": "ORD12241",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 32070
+      },
+      {
+        "order_id": "ORD70746",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 1712
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0175",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD30820",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 10284
+      },
+      {
+        "order_id": "ORD25096",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 40587
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0176",
+    "name": "Arjun",
+    "orders": [
+      {
+        "order_id": "ORD98485",
+        "product": "Headphones",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 26489
+      },
+      {
+        "order_id": "ORD26560",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 53450
+      },
+      {
+        "order_id": "ORD77862",
+        "product": "Pizza",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 40148
+      },
+      {
+        "order_id": "ORD60045",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 4562
+      },
+      {
+        "order_id": "ORD79605",
+        "product": "Laptop",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 10114
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0177",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD52838",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 44038
+      },
+      {
+        "order_id": "ORD86774",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 52496
+      },
+      {
+        "order_id": "ORD76548",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 4166
+      },
+      {
+        "order_id": "ORD38743",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 44737
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0178",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD44904",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 6154
+      },
+      {
+        "order_id": "ORD47527",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 42457
+      },
+      {
+        "order_id": "ORD48238",
+        "product": "Pizza",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 43367
+      },
+      {
+        "order_id": "ORD79840",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 58625
+      },
+      {
+        "order_id": "ORD57583",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 44741
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0179",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD47846",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 43211
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0180",
+    "name": "Aditya",
+    "orders": [
+      {
+        "order_id": "ORD18825",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 48833
+      },
+      {
+        "order_id": "ORD48286",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 55338
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0181",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD89481",
+        "product": "Pizza",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 58286
+      },
+      {
+        "order_id": "ORD55567",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 38137
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0182",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD94571",
+        "product": "Headphones",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 14933
+      },
+      {
+        "order_id": "ORD43452",
+        "product": "T-shirt",
+        "platform": "Myntra",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 52082
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0183",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD90057",
+        "product": "Laptop",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 35753
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0184",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD46627",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 58196
+      },
+      {
+        "order_id": "ORD98527",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 52483
+      },
+      {
+        "order_id": "ORD20880",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 39947
+      },
+      {
+        "order_id": "ORD55026",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 25052
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0185",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD61745",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 48439
+      },
+      {
+        "order_id": "ORD31677",
+        "product": "Shoes",
+        "platform": "Swiggy",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 31749
+      },
+      {
+        "order_id": "ORD60114",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 29910
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0186",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD49275",
+        "product": "Burger",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 8367
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0187",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD83221",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "Cancelled",
+        "payment_mode": "Card",
+        "amount": 36333
+      },
+      {
+        "order_id": "ORD99951",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 6806
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0188",
+    "name": "Isha",
+    "orders": [
+      {
+        "order_id": "ORD78455",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Returnable",
+        "payment_mode": "COD",
+        "amount": 50754
+      },
+      {
+        "order_id": "ORD49265",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 22619
+      },
+      {
+        "order_id": "ORD97181",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 22742
+      },
+      {
+        "order_id": "ORD63198",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Returned",
+        "payment_mode": "COD",
+        "amount": 25080
+      },
+      {
+        "order_id": "ORD32833",
+        "product": "Shoes",
+        "platform": "Flipkart",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 54250
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0189",
+    "name": "Vihaan",
+    "orders": [
+      {
+        "order_id": "ORD47460",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 12188
+      },
+      {
+        "order_id": "ORD22257",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 14634
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0190",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD73001",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 30286
+      },
+      {
+        "order_id": "ORD40663",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Refunded",
+        "payment_mode": "Card",
+        "amount": 42217
+      },
+      {
+        "order_id": "ORD63531",
+        "product": "Headphones",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "Card",
+        "amount": 12534
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0191",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD77714",
+        "product": "T-shirt",
+        "platform": "Zomato",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 13629
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0192",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD67784",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 56528
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0193",
+    "name": "Karan",
+    "orders": [
+      {
+        "order_id": "ORD96640",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 12221
+      },
+      {
+        "order_id": "ORD91146",
+        "product": "Headphones",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 47814
+      },
+      {
+        "order_id": "ORD21102",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 28846
+      },
+      {
+        "order_id": "ORD39715",
+        "product": "Pizza",
+        "platform": "Myntra",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 32728
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0194",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD65387",
+        "product": "Mobile Phone",
+        "platform": "Zomato",
+        "status": "Refunded",
+        "payment_mode": "UPI",
+        "amount": 59894
+      },
+      {
+        "order_id": "ORD54137",
+        "product": "Shoes",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 2151
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0195",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD96596",
+        "product": "Mobile Phone",
+        "platform": "Amazon",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 45735
+      },
+      {
+        "order_id": "ORD97059",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Cancelled",
+        "payment_mode": "UPI",
+        "amount": 51113
+      },
+      {
+        "order_id": "ORD12003",
+        "product": "Burger",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "COD",
+        "amount": 58966
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0196",
+    "name": "Riya",
+    "orders": [
+      {
+        "order_id": "ORD32357",
+        "product": "Groceries",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "UPI",
+        "amount": 36575
+      },
+      {
+        "order_id": "ORD38247",
+        "product": "Mobile Phone",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 13948
+      },
+      {
+        "order_id": "ORD90495",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "Returned",
+        "payment_mode": "Card",
+        "amount": 59456
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0197",
+    "name": "Aarav",
+    "orders": [
+      {
+        "order_id": "ORD29208",
+        "product": "Mobile Phone",
+        "platform": "Swiggy",
+        "status": "In Transit",
+        "payment_mode": "UPI",
+        "amount": 10084
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0198",
+    "name": "Ananya",
+    "orders": [
+      {
+        "order_id": "ORD15816",
+        "product": "Burger",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 57008
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0199",
+    "name": "Sahil",
+    "orders": [
+      {
+        "order_id": "ORD10908",
+        "product": "Burger",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 17778
+      },
+      {
+        "order_id": "ORD57151",
+        "product": "T-shirt",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 29720
+      },
+      {
+        "order_id": "ORD47144",
+        "product": "Groceries",
+        "platform": "Swiggy",
+        "status": "Cancelled",
+        "payment_mode": "COD",
+        "amount": 32011
+      },
+      {
+        "order_id": "ORD84058",
+        "product": "Burger",
+        "platform": "Zomato",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 40973
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST0200",
+    "name": "Kabir",
+    "orders": [
+      {
+        "order_id": "ORD13030",
+        "product": "Laptop",
+        "platform": "Myntra",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 43767
+      },
+      {
+        "order_id": "ORD47474",
+        "product": "T-shirt",
+        "platform": "Swiggy",
+        "status": "Refunded",
+        "payment_mode": "COD",
+        "amount": 24564
+      },
+      {
+        "order_id": "ORD68135",
+        "product": "Shoes",
+        "platform": "Amazon",
+        "status": "Returnable",
+        "payment_mode": "Card",
+        "amount": 45468
+      },
+      {
+        "order_id": "ORD74047",
+        "product": "Groceries",
+        "platform": "Flipkart",
+        "status": "Returned",
+        "payment_mode": "UPI",
+        "amount": 44372
+      }
+    ]
+  },
+  {
+    "customer_id": "CUST000714",
+    "name": "Rajesh Kumar",
+    "orders": [
+      {
+        "order_id": "ORD00007",
+        "product": "Adobe Photoshop",
+        "platform": "Support System",
+        "status": "Awaiting Response",
+        "payment_mode": "Card",
+        "amount": 0
+      },
+      {
+        "order_id": "ORD12847",
+        "product": "Engineering Textbook",
+        "platform": "Amazon",
+        "status": "Delivered",
+        "payment_mode": "UPI",
+        "amount": 1299
+      },
+      {
+        "order_id": "ORD34521",
+        "product": "Laptop Charger",
+        "platform": "Flipkart",
+        "status": "In Transit",
+        "payment_mode": "COD",
+        "amount": 2499
+      },
+      {
+        "order_id": "ORD56789",
+        "product": "RVCE T-Shirt",
+        "platform": "Campus Store",
+        "status": "Delivered",
+        "payment_mode": "Card",
+        "amount": 599
+      }
+    ]
+  }
+]
